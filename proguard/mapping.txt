@@ -1,0 +1,1181 @@
+com.digby.test.jpushtest.IntentReceiver -> com.digby.test.jpushtest.IntentReceiver:
+    java.lang.String APID_UPDATED_ACTION_SUFFIX -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    void logPushExtras(android.content.Intent) -> a
+com.digby.test.jpushtest.LocationActivity -> com.digby.test.jpushtest.LocationActivity:
+    android.widget.Button networkUpdateButton -> a
+    android.widget.Button gpsUpdateButton -> b
+    android.location.Criteria newCriteria -> c
+    android.content.IntentFilter locationFilter -> d
+    android.content.BroadcastReceiver locationUpdateReceiver -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    void onStop() -> onStop
+    void onResume() -> onResume
+    void onPause() -> onPause
+com.digby.test.jpushtest.LocationActivity$1 -> com.digby.test.jpushtest.a:
+    com.digby.test.jpushtest.LocationActivity this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.digby.test.jpushtest.LocationActivity$2 -> com.digby.test.jpushtest.b:
+    com.digby.test.jpushtest.LocationActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.digby.test.jpushtest.LocationActivity$3 -> com.digby.test.jpushtest.c:
+    com.digby.test.jpushtest.LocationActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.digby.test.jpushtest.MainActivity -> com.digby.test.jpushtest.MainActivity:
+    android.widget.Button locationButton -> a
+    android.content.IntentFilter boundServiceFilter -> b
+    android.content.IntentFilter apidUpdateFilter -> c
+    android.content.BroadcastReceiver boundServiceReceiver -> d
+    android.content.BroadcastReceiver apidUpdateReceiver -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void handleLocationButton() -> a
+    void onPause() -> onPause
+    void updateApidField() -> b
+    void access$0(com.digby.test.jpushtest.MainActivity) -> a
+com.digby.test.jpushtest.MainActivity$1 -> com.digby.test.jpushtest.d:
+    com.digby.test.jpushtest.MainActivity this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.digby.test.jpushtest.MainActivity$2 -> com.digby.test.jpushtest.e:
+    com.digby.test.jpushtest.MainActivity this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.digby.test.jpushtest.MainActivity$3 -> com.digby.test.jpushtest.f:
+    com.digby.test.jpushtest.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.digby.test.jpushtest.MainActivity$4 -> com.digby.test.jpushtest.g:
+    com.digby.test.jpushtest.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.digby.test.jpushtest.MainActivity$5 -> com.digby.test.jpushtest.h:
+    com.digby.test.jpushtest.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.digby.test.jpushtest.MyApplication -> com.digby.test.jpushtest.MyApplication:
+    void onCreate() -> onCreate
+com.digby.test.jpushtest.preference.CustomPreferencesActivity -> com.digby.test.jpushtest.preference.CustomPreferencesActivity:
+    android.widget.CheckBox pushEnabled -> a
+    android.widget.CheckBox soundEnabled -> b
+    android.widget.CheckBox vibrateEnabled -> c
+    android.widget.CheckBox quietTimeEnabled -> d
+    android.widget.CheckBox locationEnabled -> e
+    android.widget.CheckBox backgroundLocationEnabled -> f
+    android.widget.CheckBox foregroundLocationEnabled -> g
+    android.widget.TextView locationEnabledLabel -> h
+    android.widget.TextView backgroundLocationEnabledLabel -> i
+    android.widget.TextView foregroundLocationEnabledLabel -> j
+    android.widget.TimePicker startTime -> k
+    android.widget.TimePicker endTime -> l
+    com.urbanairship.push.PushPreferences pushPrefs -> m
+    com.urbanairship.location.LocationPreferences locPrefs -> n
+    void pushSettingsActive(boolean) -> a
+    void quietTimeSettingsActive(boolean) -> b
+    void backgroundLocationActive(boolean) -> c
+    void foregroundLocationActive(boolean) -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    void onStop() -> onStop
+    void handleLocation() -> a
+    void handleBackgroundLocationPreference(boolean) -> e
+    void handleForegroundLocationPreference(boolean) -> f
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    void access$0(com.digby.test.jpushtest.preference.CustomPreferencesActivity,boolean) -> a
+    void access$1(com.digby.test.jpushtest.preference.CustomPreferencesActivity,boolean) -> b
+    void access$2(com.digby.test.jpushtest.preference.CustomPreferencesActivity,boolean) -> c
+    void access$3(com.digby.test.jpushtest.preference.CustomPreferencesActivity,boolean) -> d
+com.digby.test.jpushtest.preference.CustomPreferencesActivity$1 -> com.digby.test.jpushtest.preference.a:
+    com.digby.test.jpushtest.preference.CustomPreferencesActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.digby.test.jpushtest.preference.CustomPreferencesActivity$2 -> com.digby.test.jpushtest.preference.b:
+    com.digby.test.jpushtest.preference.CustomPreferencesActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.digby.test.jpushtest.preference.CustomPreferencesActivity$3 -> com.digby.test.jpushtest.preference.c:
+    com.digby.test.jpushtest.preference.CustomPreferencesActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.digby.test.jpushtest.preference.PreferencesActivity -> com.digby.test.jpushtest.preference.PreferencesActivity:
+    com.urbanairship.preference.UAPreferenceAdapter preferenceAdapter -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    void onStop() -> onStop
+com.urbanairship.AirshipConfigOptions -> com.urbanairship.a:
+    java.lang.String productionAppKey -> a
+    java.lang.String productionAppSecret -> b
+    java.lang.String developmentAppKey -> c
+    java.lang.String developmentAppSecret -> d
+    java.lang.String hostURL -> e
+    java.lang.String analyticsServer -> f
+    java.lang.String gcmSender -> g
+    java.lang.String transport -> h
+    boolean inProduction -> i
+    boolean pushServiceEnabled -> j
+    boolean richPushEnabled -> k
+    boolean analyticsEnabled -> l
+    com.urbanairship.LocationOptions locationOptions -> m
+    int developmentLogLevel -> n
+    int productionLogLevel -> o
+    int minSdkVersion -> p
+    com.urbanairship.AirshipConfigOptions loadDefaultOptions(android.content.Context) -> a
+    com.urbanairship.AirshipConfigOptions$TransportType getTransport() -> a
+    java.lang.String getAppKey() -> b
+    java.lang.String getAppSecret() -> c
+    int getLoggerLevel() -> d
+    boolean isValid() -> e
+    boolean isLogLevelValid(int) -> a
+    java.lang.String getDefaultPropertiesFilename() -> f
+com.urbanairship.AirshipConfigOptions$TransportType -> com.urbanairship.b:
+    com.urbanairship.AirshipConfigOptions$TransportType HELIUM -> a
+    com.urbanairship.AirshipConfigOptions$TransportType GCM -> b
+    com.urbanairship.AirshipConfigOptions$TransportType HYBRID -> c
+    com.urbanairship.AirshipConfigOptions$TransportType[] $VALUES -> d
+    com.urbanairship.AirshipConfigOptions$TransportType[] values() -> values
+    com.urbanairship.AirshipConfigOptions$TransportType valueOf(java.lang.String) -> valueOf
+com.urbanairship.Autopilot -> com.urbanairship.c:
+    void automaticTakeOff(android.app.Application) -> a
+    void execute(android.app.Application) -> b
+com.urbanairship.ConstantClass -> com.urbanairship.d:
+    java.lang.String name() -> a
+com.urbanairship.CoreReceiver -> com.urbanairship.CoreReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.urbanairship.InternalOptions -> com.urbanairship.e:
+    boolean useTestCluster -> a
+    void loadFromProperties(android.content.Context) -> a_
+    com.urbanairship.InternalOptions loadDefaultOptions(android.content.Context) -> b
+    java.lang.String getDefaultPropertiesFilename() -> f
+com.urbanairship.LocationOptions -> com.urbanairship.f:
+    boolean locationServiceEnabled -> a
+    boolean allowGPSForLocationTracking -> b
+    int updateIntervalMeters -> c
+    long updateIntervalSeconds -> d
+    long backgroundReportingIntervalSeconds -> e
+    int accuracy -> f
+    int horizontalAccuracy -> g
+    int powerRequirement -> h
+    boolean altitudeRequired -> i
+    boolean bearingRequired -> j
+    boolean speedRequired -> k
+    boolean costAllowed -> l
+    boolean isValid() -> a
+    boolean isAccuracyValid(int) -> a
+    boolean isPowerReqValid() -> b
+    void ensureUpdateIntervalValuesAreValid() -> c
+    java.lang.String getDefaultPropertiesFilename() -> f
+com.urbanairship.Logger -> com.urbanairship.g:
+    int logLevel -> a
+    java.lang.String TAG -> b
+    void warn(java.lang.String) -> a
+    void warn(java.lang.String,java.lang.Throwable) -> a
+    void verbose(java.lang.String) -> b
+    void debug(java.lang.String) -> c
+    void info(java.lang.String) -> d
+    void info(java.lang.String,java.lang.Throwable) -> b
+    void error(java.lang.String) -> e
+    void error(java.lang.Throwable) -> a
+    void error(java.lang.String,java.lang.Throwable) -> c
+com.urbanairship.Options -> com.urbanairship.h:
+    void loadFromProperties(android.content.Context) -> a_
+    void loadFromProperties(android.content.Context,java.lang.String) -> a
+    java.lang.String getDefaultPropertiesFilename() -> f
+    int parseOptionValues(java.lang.reflect.Field,java.lang.String) -> a
+    java.lang.String getPropertyValue(java.lang.reflect.Field,java.util.Properties) -> a
+    void setPropertyValue(java.lang.reflect.Field,java.lang.String) -> b
+com.urbanairship.Preferences -> com.urbanairship.i:
+    java.util.concurrent.ConcurrentMap prefsCache -> b
+    com.urbanairship.PreferencesResolver resolver -> a
+    void remove(java.lang.String) -> a
+    void put(java.lang.String,java.lang.Object) -> a
+    boolean getBoolean(java.lang.String,boolean) -> a
+    java.lang.String getString(java.lang.String,java.lang.String) -> a
+    long getLong(java.lang.String,long) -> a
+    int getInt(java.lang.String,int) -> a
+    java.lang.String getPreference(java.lang.String) -> c
+    java.lang.String getPreferenceFromDatabase(java.lang.String) -> d
+    com.urbanairship.Preferences$Preference getPreferenceFromCache(java.lang.String) -> e
+    void addPreferenceToCache(java.lang.String,java.lang.String) -> b
+    void updatePreferenceInCache(java.lang.String,java.lang.String) -> c
+    void removePreferenceFromCache(java.lang.String) -> f
+    void putPreferenceIfDifferent(java.lang.String,java.lang.String) -> d
+    void migratePreferencesFromFileToDb(java.lang.String) -> b
+com.urbanairship.Preferences$Preference -> com.urbanairship.j:
+    boolean updated -> a
+    java.lang.String key -> b
+    java.lang.String value -> c
+    com.urbanairship.Preferences$Preference$PreferencesObserver observer -> d
+    com.urbanairship.Preferences this$0 -> e
+    void registerObserver() -> a
+    void unregisterObserver() -> b
+    boolean isUpdated() -> c
+    void updatePreference(java.lang.String) -> a
+    boolean access$000(com.urbanairship.Preferences$Preference) -> a
+    void access$100(com.urbanairship.Preferences$Preference,java.lang.String) -> a
+    void access$200(com.urbanairship.Preferences$Preference) -> b
+com.urbanairship.Preferences$Preference$PreferencesObserver -> com.urbanairship.k:
+    com.urbanairship.Preferences$Preference this$1 -> a
+    void onChange(boolean) -> onChange
+com.urbanairship.PreferencesDataManager -> com.urbanairship.l:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> a
+    void bindValuesToSqlLiteStatment(android.database.sqlite.SQLiteStatement,android.content.ContentValues) -> a
+    android.database.sqlite.SQLiteStatement getInsertStatement(java.lang.String,android.database.sqlite.SQLiteDatabase) -> a
+    void onDowngrade(android.database.sqlite.SQLiteDatabase,int,int) -> a
+com.urbanairship.PreferencesResolver -> com.urbanairship.m:
+    android.database.Cursor get(java.lang.String) -> a
+    android.net.Uri put(java.lang.String,java.lang.String) -> a
+    int remove(java.lang.String) -> b
+com.urbanairship.PropertyName -> com.urbanairship.n:
+    java.lang.String name() -> a
+com.urbanairship.RichPushDataManager -> com.urbanairship.o:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> a
+    void bindValuesToSqlLiteStatment(android.database.sqlite.SQLiteStatement,android.content.ContentValues) -> a
+    android.database.sqlite.SQLiteStatement getInsertStatement(java.lang.String,android.database.sqlite.SQLiteDatabase) -> a
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> b
+    void onDowngrade(android.database.sqlite.SQLiteDatabase,int,int) -> a
+com.urbanairship.UAirship -> com.urbanairship.p:
+    com.urbanairship.UAirship sharedAirship -> e
+    android.content.Context applicationContext -> a
+    com.urbanairship.AirshipConfigOptions airshipConfigOptions -> b
+    com.urbanairship.analytics.Analytics analytics -> c
+    boolean flying -> d
+    com.urbanairship.UAirship shared() -> a
+    void takeOff(android.app.Application,com.urbanairship.AirshipConfigOptions) -> a
+    java.lang.String getPackageName() -> b
+    android.content.pm.PackageManager getPackageManager() -> c
+    android.content.pm.PackageInfo getPackageInfo() -> d
+    android.content.pm.ApplicationInfo getAppInfo() -> e
+    java.lang.String getAppName() -> f
+    int getAppIcon() -> g
+    android.content.Context getApplicationContext() -> h
+    com.urbanairship.AirshipConfigOptions getAirshipConfigOptions() -> i
+    boolean isFlying() -> j
+    java.lang.String getVersion() -> k
+    com.urbanairship.analytics.Analytics getAnalytics() -> l
+    void checkManifest() -> m
+    void checkRequiredPermission(java.lang.String) -> a
+    java.util.Map getUrbanAirshipReceiverAndServiceInfos() -> n
+com.urbanairship.UrbanAirshipProvider -> com.urbanairship.UrbanAirshipProvider:
+    android.content.UriMatcher MATCHER -> a
+    com.urbanairship.UrbanAirshipProvider$DatabaseModel richPushModel -> b
+    com.urbanairship.UrbanAirshipProvider$DatabaseModel preferencesModel -> c
+    java.lang.String authorityString -> d
+    void init() -> a
+    android.net.Uri getRichPushContentUri() -> b
+    android.net.Uri getPreferencesContentUri() -> c
+    java.lang.String getAuthorityString() -> d
+    boolean onCreate() -> onCreate
+    int delete(android.net.Uri,java.lang.String,java.lang.String[]) -> delete
+    java.lang.String getType(android.net.Uri) -> getType
+    int bulkInsert(android.net.Uri,android.content.ContentValues[]) -> bulkInsert
+    android.net.Uri insert(android.net.Uri,android.content.ContentValues) -> insert
+    android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String) -> query
+    int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[]) -> update
+    void shutdown() -> shutdown
+    com.urbanairship.UrbanAirshipProvider$DatabaseModel getPreferencesModel() -> e
+    com.urbanairship.UrbanAirshipProvider$DatabaseModel getRichPushModel() -> f
+    java.lang.String[] getKeys(android.net.Uri) -> a
+    com.urbanairship.UrbanAirshipProvider$DatabaseModel getDatabaseModel(android.net.Uri) -> b
+com.urbanairship.UrbanAirshipProvider$DatabaseModel -> com.urbanairship.q:
+    com.urbanairship.util.DataManager dataManager -> a
+    java.lang.String table -> b
+    android.net.Uri contentUri -> c
+    java.lang.String notificationColumnId -> d
+    com.urbanairship.UrbanAirshipProvider$DatabaseModel createRichPushModel(android.content.Context) -> a
+    com.urbanairship.UrbanAirshipProvider$DatabaseModel createPreferencesModel(android.content.Context) -> b
+    void notifyDatabaseChange(android.content.Context,java.lang.String[],java.lang.String) -> a
+com.urbanairship.UrbanAirshipResolver -> com.urbanairship.r:
+    android.content.Context context -> a
+    android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String) -> a
+    int delete(android.net.Uri,java.lang.String,java.lang.String[]) -> a
+    int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[]) -> a
+    android.net.Uri insert(android.net.Uri,android.content.ContentValues) -> a
+    int bulkInsert(android.net.Uri,android.content.ContentValues[]) -> a
+    void registerContentObserver(android.net.Uri,boolean,android.database.ContentObserver) -> a
+    void unregisterContentObserver(android.database.ContentObserver) -> a
+    android.content.ContentResolver getResolver() -> a
+com.urbanairship.analytics.ActivityMonitor -> com.urbanairship.analytics.a:
+    android.util.SparseArray activityStates -> a
+    com.urbanairship.analytics.ActivityMonitor$Delegate delegate -> b
+    boolean isForeground -> c
+    int minSdkVersion -> d
+    int currentSdkVersion -> e
+    boolean analyticsEnabled -> f
+    void activityStarted(android.app.Activity,com.urbanairship.analytics.ActivityMonitor$Source) -> a
+    void activityStopped(android.app.Activity,com.urbanairship.analytics.ActivityMonitor$Source) -> b
+    com.urbanairship.analytics.ActivityState getActivityState(android.app.Activity) -> a
+    void updateForegroundState() -> a
+com.urbanairship.analytics.ActivityMonitor$1 -> com.urbanairship.analytics.b:
+    com.urbanairship.analytics.ActivityMonitor this$0 -> a
+    void run() -> run
+com.urbanairship.analytics.ActivityMonitor$Delegate -> com.urbanairship.analytics.c:
+    void onForeground() -> a
+    void onBackground() -> b
+com.urbanairship.analytics.ActivityMonitor$Source -> com.urbanairship.analytics.d:
+    com.urbanairship.analytics.ActivityMonitor$Source MANUAL_INSTRUMENTATION -> a
+    com.urbanairship.analytics.ActivityMonitor$Source AUTO_INSTRUMENTATION -> b
+    com.urbanairship.analytics.ActivityMonitor$Source[] $VALUES -> c
+    com.urbanairship.analytics.ActivityMonitor$Source[] values() -> values
+    com.urbanairship.analytics.ActivityMonitor$Source valueOf(java.lang.String) -> valueOf
+com.urbanairship.analytics.ActivityStartedEvent -> com.urbanairship.analytics.e:
+    java.lang.String className -> a
+    java.lang.String getType() -> a
+    org.json.JSONObject getData() -> b
+com.urbanairship.analytics.ActivityState -> com.urbanairship.analytics.f:
+    com.urbanairship.analytics.ActivityState$State autoInstrumentedState -> a
+    com.urbanairship.analytics.ActivityState$State manualInstrumentedState -> b
+    java.lang.String activityName -> c
+    int minSdkVersion -> d
+    int currentSdkVersion -> e
+    boolean analyticsEnabled -> f
+    boolean isForeground() -> a
+    void setStarted(com.urbanairship.analytics.ActivityMonitor$Source) -> a
+    void setStopped(com.urbanairship.analytics.ActivityMonitor$Source) -> b
+com.urbanairship.analytics.ActivityState$State -> com.urbanairship.analytics.g:
+    com.urbanairship.analytics.ActivityState$State STARTED -> a
+    com.urbanairship.analytics.ActivityState$State STOPPED -> b
+    com.urbanairship.analytics.ActivityState$State NONE -> c
+    com.urbanairship.analytics.ActivityState$State[] $VALUES -> d
+    com.urbanairship.analytics.ActivityState$State[] values() -> values
+    com.urbanairship.analytics.ActivityState$State valueOf(java.lang.String) -> valueOf
+com.urbanairship.analytics.ActivityStoppedEvent -> com.urbanairship.analytics.h:
+    java.lang.String className -> a
+    java.lang.String getType() -> a
+    org.json.JSONObject getData() -> b
+com.urbanairship.analytics.Analytics -> com.urbanairship.analytics.i:
+    java.lang.String ACTION_APP_FOREGROUND -> a
+    java.lang.String ACTION_APP_BACKGROUND -> b
+    java.lang.String server -> c
+    java.lang.String conversionPushId -> d
+    com.urbanairship.analytics.Analytics$Session session -> e
+    boolean inBackground -> f
+    com.urbanairship.analytics.ActivityMonitor activityMonitor -> g
+    com.urbanairship.analytics.EventDataManager dataManager -> h
+    com.urbanairship.analytics.EventUploadManager uploadManager -> i
+    boolean stickyBroadcastAllowed -> j
+    boolean useLifeCycleCallbacks -> k
+    int minSdkVersion -> l
+    boolean analyticsEnabled -> m
+    android.content.BroadcastReceiver appStateChangeReceiver -> n
+    void registerLifeCycleCallbacks(android.app.Application) -> a
+    void sendForegroundBroadcast() -> f
+    void sendBackgroundBroadcast() -> g
+    void activityStarted(android.app.Activity) -> a
+    void activityStopped(android.app.Activity) -> b
+    boolean isAppInForeground() -> a
+    void addEvent(com.urbanairship.analytics.Event) -> a
+    void setConversionPushId(java.lang.String) -> a
+    java.lang.String getConversionPushId() -> b
+    com.urbanairship.analytics.Analytics$Session getSession() -> c
+    java.lang.String getHashedDeviceId() -> d
+    void startUploadingIfNecessary() -> e
+    com.urbanairship.analytics.Analytics$Session access$002(com.urbanairship.analytics.Analytics,com.urbanairship.analytics.Analytics$Session) -> a
+    boolean access$102(com.urbanairship.analytics.Analytics,boolean) -> a
+    void access$200(com.urbanairship.analytics.Analytics) -> a
+    void access$300(com.urbanairship.analytics.Analytics) -> b
+    java.lang.String access$402(com.urbanairship.analytics.Analytics,java.lang.String) -> a
+    com.urbanairship.analytics.ActivityMonitor access$500(com.urbanairship.analytics.Analytics) -> c
+    com.urbanairship.analytics.EventDataManager access$600(com.urbanairship.analytics.Analytics) -> d
+    com.urbanairship.analytics.EventUploadManager access$700(com.urbanairship.analytics.Analytics) -> e
+    boolean access$100(com.urbanairship.analytics.Analytics) -> f
+com.urbanairship.analytics.Analytics$1 -> com.urbanairship.analytics.j:
+    com.urbanairship.analytics.Analytics this$0 -> a
+    void onForeground() -> a
+    void onBackground() -> b
+com.urbanairship.analytics.Analytics$2 -> com.urbanairship.analytics.k:
+    com.urbanairship.analytics.Analytics this$0 -> a
+    void onStop(android.app.Activity) -> a
+    void onStart(android.app.Activity) -> b
+com.urbanairship.analytics.Analytics$3 -> com.urbanairship.analytics.l:
+    com.urbanairship.analytics.Event val$event -> a
+    com.urbanairship.analytics.Analytics this$0 -> b
+    void run() -> run
+com.urbanairship.analytics.Analytics$4 -> com.urbanairship.analytics.m:
+    com.urbanairship.analytics.Analytics this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.urbanairship.analytics.Analytics$AddEventTask -> com.urbanairship.analytics.n:
+    com.urbanairship.analytics.Analytics this$0 -> a
+    java.lang.Void doInBackground(com.urbanairship.analytics.Event[]) -> a
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.urbanairship.analytics.Analytics$Session -> com.urbanairship.analytics.o:
+    java.lang.String id -> b
+    com.urbanairship.analytics.Analytics this$0 -> a
+    java.lang.String getId() -> a
+com.urbanairship.analytics.AnalyticsPreferences -> com.urbanairship.analytics.p:
+    int getMaxTotalDbSize() -> a
+    void setMaxTotalDbSize(int) -> a
+    int getMaxBatchSize() -> b
+    void setMaxBatchSize(int) -> b
+    int getMaxWait() -> c
+    void setMaxWait(int) -> c
+    int getMinBatchInterval() -> d
+    void setMinBatchInterval(int) -> d
+    long getLastSendTime() -> e
+    void setLastSendTime(long) -> a
+com.urbanairship.analytics.AppBackgroundEvent -> com.urbanairship.analytics.q:
+    java.lang.String getType() -> a
+    org.json.JSONObject getData() -> b
+com.urbanairship.analytics.AppForegroundEvent -> com.urbanairship.analytics.r:
+    java.lang.String getType() -> a
+    org.json.JSONObject getData() -> b
+com.urbanairship.analytics.DefaultEnvironment -> com.urbanairship.analytics.s:
+    java.lang.String conversionPushId -> a
+    java.lang.String sessionId -> b
+    java.lang.String getConnectionType() -> a
+    java.lang.String getConnectionSubType() -> b
+    java.lang.String getCarrier() -> c
+    java.lang.String getOsVersion() -> d
+    java.lang.String getLibVersion() -> e
+    java.lang.String getPackageVersion() -> f
+    long getTimezone() -> g
+    boolean isDaylightSavingsTime() -> h
+    java.util.ArrayList getNotificationTypes() -> i
+    java.lang.String getSessionId() -> j
+    java.lang.String getConversionPushId() -> k
+    java.lang.String getPushTransport() -> l
+    java.lang.String getApid() -> m
+    boolean isPushEnabled() -> n
+    long getTimeMillis() -> o
+    boolean isAppInForeground() -> p
+    boolean isQuietTimeEnabled() -> q
+    java.util.Date[] getQuietTimeInterval() -> r
+com.urbanairship.analytics.Environment -> com.urbanairship.analytics.t:
+    java.lang.String getConnectionType() -> a
+    java.lang.String getConnectionSubType() -> b
+    java.lang.String getCarrier() -> c
+    java.lang.String getOsVersion() -> d
+    java.lang.String getLibVersion() -> e
+    java.lang.String getPackageVersion() -> f
+    long getTimezone() -> g
+    boolean isDaylightSavingsTime() -> h
+    java.util.ArrayList getNotificationTypes() -> i
+    java.util.Date[] getQuietTimeInterval() -> r
+    boolean isQuietTimeEnabled() -> q
+    java.lang.String getSessionId() -> j
+    java.lang.String getConversionPushId() -> k
+    java.lang.String getPushTransport() -> l
+    java.lang.String getApid() -> m
+    boolean isPushEnabled() -> n
+    long getTimeMillis() -> o
+    boolean isAppInForeground() -> p
+com.urbanairship.analytics.Event -> com.urbanairship.analytics.u:
+    java.lang.String eventId -> a
+    java.lang.String sessionId -> b
+    java.lang.String time -> c
+    com.urbanairship.analytics.Environment environment -> d
+    java.lang.String getEventId() -> c
+    java.lang.String getTime() -> d
+    void log() -> e
+    com.urbanairship.analytics.Environment getEnvironment() -> f
+    org.json.JSONObject jsonRepresentation() -> g
+    java.lang.String getSessionId() -> h
+    java.lang.String getType() -> a
+    org.json.JSONObject getData() -> b
+com.urbanairship.analytics.EventDataManager -> com.urbanairship.analytics.v:
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> b
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> a
+    void bindValuesToSqlLiteStatment(android.database.sqlite.SQLiteStatement,android.content.ContentValues) -> a
+    android.database.sqlite.SQLiteStatement getInsertStatement(java.lang.String,android.database.sqlite.SQLiteDatabase) -> a
+    void onDowngrade(android.database.sqlite.SQLiteDatabase,int,int) -> a
+    int insertEvent(com.urbanairship.analytics.Event) -> a
+    java.util.Map getEvents(int) -> a
+    boolean deleteEventType(java.lang.String) -> a
+    boolean deleteEvents(java.util.Set) -> a
+    java.lang.String repeat(java.lang.String,int,java.lang.String) -> a
+    boolean deleteSession(java.lang.String) -> b
+    java.lang.String getOldestSessionId() -> a
+    int getEventCount() -> b
+    int getDatabaseSize() -> c
+com.urbanairship.analytics.EventRequestFactory -> com.urbanairship.analytics.w:
+    com.urbanairship.restclient.Request createRequest(java.util.Collection) -> a
+    org.apache.http.entity.AbstractHttpEntity createJSONEntity(byte[]) -> a
+    void setHeaders(com.urbanairship.restclient.Request) -> a
+    byte[] getJSONBody(java.util.Collection) -> b
+com.urbanairship.analytics.EventService -> com.urbanairship.analytics.EventService:
+    void onCreate() -> onCreate
+    void onHandleIntent(android.content.Intent) -> onHandleIntent
+    void startService() -> a
+com.urbanairship.analytics.EventUploadManager -> com.urbanairship.analytics.x:
+    com.urbanairship.analytics.AnalyticsPreferences prefs -> a
+    com.urbanairship.analytics.EventDataManager dataManager -> b
+    int batchSize -> c
+    int maxTotalDBSize -> d
+    int maxBatchSize -> e
+    int maxWait -> f
+    int minBatchInterval -> g
+    long lastSendTime -> h
+    long backoffMs -> i
+    long getLastSendTime() -> a
+    boolean scheduleEventUpload(long) -> a
+    void upload() -> b
+    void loadPrefs() -> d
+    void savePrefs() -> e
+    boolean send(java.util.Collection) -> a
+    void saveHeaders(com.urbanairship.restclient.Response) -> a
+    int getMaxTotalDBSize() -> c
+com.urbanairship.analytics.InstrumentedActivity -> com.urbanairship.analytics.y:
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    void onStop() -> onStop
+com.urbanairship.analytics.LifeCycleCallbacks -> com.urbanairship.analytics.z:
+    void registerCallback(android.app.Application,com.urbanairship.analytics.LifeCycleCallbacks$Callback) -> a
+com.urbanairship.analytics.LifeCycleCallbacks$1 -> com.urbanairship.analytics.aa:
+    com.urbanairship.analytics.LifeCycleCallbacks$Callback val$callback -> a
+    void onActivityPaused(android.app.Activity) -> onActivityPaused
+    void onActivityResumed(android.app.Activity) -> onActivityResumed
+    void onActivityCreated(android.app.Activity,android.os.Bundle) -> onActivityCreated
+    void onActivityDestroyed(android.app.Activity) -> onActivityDestroyed
+    void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle) -> onActivitySaveInstanceState
+    void onActivityStarted(android.app.Activity) -> onActivityStarted
+    void onActivityStopped(android.app.Activity) -> onActivityStopped
+com.urbanairship.analytics.LifeCycleCallbacks$Callback -> com.urbanairship.analytics.ab:
+    void onStart(android.app.Activity) -> b
+    void onStop(android.app.Activity) -> a
+com.urbanairship.analytics.LocationEvent -> com.urbanairship.analytics.ac:
+    java.lang.String provider -> a
+    java.lang.String latitude -> b
+    java.lang.String longitude -> c
+    java.lang.String accuracy -> d
+    java.lang.String requestedAccuracy -> e
+    java.lang.String updateDistance -> f
+    java.lang.String foreground -> g
+    com.urbanairship.analytics.LocationEvent$UpdateType updateType -> h
+    java.lang.String getType() -> a
+    org.json.JSONObject getData() -> b
+    java.lang.String getValidProviderName(java.lang.String) -> a
+com.urbanairship.analytics.LocationEvent$AllowableProvider -> com.urbanairship.analytics.ad:
+    com.urbanairship.analytics.LocationEvent$AllowableProvider GPS -> a
+    com.urbanairship.analytics.LocationEvent$AllowableProvider NETWORK -> b
+    com.urbanairship.analytics.LocationEvent$AllowableProvider PASSIVE -> c
+    com.urbanairship.analytics.LocationEvent$AllowableProvider UNKNOWN -> d
+    com.urbanairship.analytics.LocationEvent$AllowableProvider[] $VALUES -> e
+    com.urbanairship.analytics.LocationEvent$AllowableProvider[] values() -> values
+    com.urbanairship.analytics.LocationEvent$AllowableProvider valueOf(java.lang.String) -> valueOf
+com.urbanairship.analytics.LocationEvent$UpdateType -> com.urbanairship.analytics.ae:
+    com.urbanairship.analytics.LocationEvent$UpdateType CONTINUOUS -> a
+    com.urbanairship.analytics.LocationEvent$UpdateType SINGLE -> b
+    com.urbanairship.analytics.LocationEvent$UpdateType CHANGE -> c
+    com.urbanairship.analytics.LocationEvent$UpdateType[] $VALUES -> d
+    com.urbanairship.analytics.LocationEvent$UpdateType[] values() -> values
+    com.urbanairship.analytics.LocationEvent$UpdateType valueOf(java.lang.String) -> valueOf
+com.urbanairship.analytics.PushArrivedEvent -> com.urbanairship.analytics.af:
+    java.lang.String pushId -> a
+    java.lang.String getType() -> a
+    org.json.JSONObject getData() -> b
+com.urbanairship.analytics.PushPreferencesChangedEvent -> com.urbanairship.analytics.ag:
+    java.lang.String getType() -> a
+    org.json.JSONObject getData() -> b
+com.urbanairship.analytics.PushServiceStartedEvent -> com.urbanairship.analytics.ah:
+    java.lang.String getType() -> a
+    org.json.JSONObject getData() -> b
+com.urbanairship.location.ILocationService -> com.urbanairship.location.a:
+    android.location.Location getLocation() -> a
+    void createLocationEvent(android.location.Location,int,int) -> a
+    android.location.Criteria getCriteria() -> b
+    void setCriteria(android.location.Criteria) -> a
+    void resetProviders() -> c
+    java.lang.String getCurrentProvider() -> d
+    java.lang.String getBestProvider() -> e
+    void requestSingleLocationUpdate(android.location.Criteria) -> b
+com.urbanairship.location.ILocationService$Stub -> com.urbanairship.location.b:
+    com.urbanairship.location.ILocationService asInterface(android.os.IBinder) -> a
+    android.os.IBinder asBinder() -> asBinder
+    boolean onTransact(int,android.os.Parcel,android.os.Parcel,int) -> onTransact
+com.urbanairship.location.ILocationService$Stub$Proxy -> com.urbanairship.location.c:
+    android.os.IBinder mRemote -> a
+    android.os.IBinder asBinder() -> asBinder
+    android.location.Location getLocation() -> a
+    void createLocationEvent(android.location.Location,int,int) -> a
+    android.location.Criteria getCriteria() -> b
+    void setCriteria(android.location.Criteria) -> a
+    void resetProviders() -> c
+    java.lang.String getCurrentProvider() -> d
+    java.lang.String getBestProvider() -> e
+    void requestSingleLocationUpdate(android.location.Criteria) -> b
+com.urbanairship.location.LastLocationFinder -> com.urbanairship.location.d:
+    android.location.LocationManager locationManager -> a
+    android.location.Location getLastBestLocation(long,android.location.Criteria) -> a
+com.urbanairship.location.LocationPreferences -> com.urbanairship.location.e:
+    boolean isLocationEnabled() -> a
+    boolean isBackgroundLocationEnabled() -> b
+    boolean isForegroundLocationEnabled() -> c
+    void setLocationEnabled(boolean) -> a
+    void setBackgroundLocationEnabled(boolean) -> b
+    void setForegroundLocationEnabled(boolean) -> c
+com.urbanairship.location.LocationService -> com.urbanairship.location.LocationService:
+    java.lang.String NETWORK_PROVIDER -> b
+    android.content.Context context -> c
+    android.location.Criteria criteria -> a
+    com.urbanairship.location.LastLocationFinder lastLocationFinder -> d
+    android.location.Location location -> e
+    android.location.LocationManager locationManager -> f
+    android.app.PendingIntent locationChangedPendingIntent -> g
+    android.app.PendingIntent singleLocationChangedPendingIntent -> h
+    com.urbanairship.location.LocationService$ProviderListener networkListener -> i
+    com.urbanairship.location.LocationService$ProviderListener gpsListener -> j
+    java.lang.String currentProvider -> k
+    java.lang.String bestProvider -> l
+    boolean started -> m
+    boolean bound -> n
+    com.urbanairship.location.ILocationService$Stub locationBinder -> o
+    android.content.BroadcastReceiver locationChangedReceiver -> p
+    void onCreate() -> onCreate
+    void onStart(android.content.Intent,int) -> onStart
+    void onDestroy() -> onDestroy
+    void createService() -> b
+    void setupService() -> c
+    void teardownService() -> d
+    void initializeCriteria() -> e
+    void setProviders() -> f
+    void registerReceivers() -> g
+    void invokeLastLocationFinder() -> h
+    void initializeProviderListeners() -> i
+    void createSingleLocationChangedPendingIntent(int) -> a
+    void createLocationChangedPendingIntent() -> j
+    void initializeLocationUpdates() -> k
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void requestLocationUpdates(java.lang.String,com.urbanairship.LocationOptions,com.urbanairship.location.LocationService$ProviderListener) -> a
+    void requestLocationUpdates(java.lang.String,com.urbanairship.LocationOptions,android.app.PendingIntent) -> a
+    boolean isProviderEnabled(java.lang.String) -> a
+    boolean isProviderAvailable(java.lang.String) -> b
+    com.urbanairship.location.LastLocationFinder access$000(com.urbanairship.location.LocationService) -> a
+    android.content.Context access$100(com.urbanairship.location.LocationService) -> b
+    java.lang.String access$300(com.urbanairship.location.LocationService) -> c
+    void access$400(com.urbanairship.location.LocationService) -> d
+    void access$500(com.urbanairship.location.LocationService) -> e
+    java.lang.String access$600(com.urbanairship.location.LocationService) -> f
+    java.lang.String access$302(com.urbanairship.location.LocationService,java.lang.String) -> a
+    android.location.Location access$700(com.urbanairship.location.LocationService) -> g
+    android.location.Location access$702(com.urbanairship.location.LocationService,android.location.Location) -> a
+    void access$800(com.urbanairship.location.LocationService) -> h
+    boolean access$900() -> a
+    void access$1000(com.urbanairship.location.LocationService) -> i
+    android.location.LocationManager access$1100(com.urbanairship.location.LocationService) -> j
+    void access$1200(com.urbanairship.location.LocationService,int) -> a
+    android.app.PendingIntent access$1300(com.urbanairship.location.LocationService) -> k
+    void access$1400(com.urbanairship.location.LocationService) -> l
+com.urbanairship.location.LocationService$1 -> com.urbanairship.location.f:
+    com.urbanairship.location.LocationService this$0 -> a
+    java.lang.Void doInBackground(java.lang.Void[]) -> a
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+com.urbanairship.location.LocationService$2 -> com.urbanairship.location.g:
+    com.urbanairship.location.LocationService this$0 -> a
+    android.location.Location getLocation() -> a
+    void createLocationEvent(android.location.Location,int,int) -> a
+    android.location.Criteria getCriteria() -> b
+    void setCriteria(android.location.Criteria) -> a
+    void resetProviders() -> c
+    java.lang.String getCurrentProvider() -> d
+    java.lang.String getBestProvider() -> e
+    void requestSingleLocationUpdate(android.location.Criteria) -> b
+com.urbanairship.location.LocationService$3 -> com.urbanairship.location.h:
+    com.urbanairship.location.LocationService this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.urbanairship.location.LocationService$ProviderListener -> com.urbanairship.location.i:
+    com.urbanairship.location.LocationService this$0 -> a
+    void onLocationChanged(android.location.Location) -> onLocationChanged
+    void onStatusChanged(java.lang.String,int,android.os.Bundle) -> onStatusChanged
+    void onProviderDisabled(java.lang.String) -> onProviderDisabled
+    void onProviderEnabled(java.lang.String) -> onProviderEnabled
+com.urbanairship.location.UALocationManager -> com.urbanairship.location.j:
+    com.urbanairship.location.UALocationManager instance -> a
+    boolean bound -> b
+    android.content.Context context -> c
+    com.urbanairship.location.ILocationService locationService -> d
+    android.content.BroadcastReceiver appStateChangeReceiver -> e
+    android.content.ServiceConnection locationConnection -> f
+    com.urbanairship.location.LocationPreferences preferences -> g
+    void init() -> a
+    com.urbanairship.location.UALocationManager shared() -> b
+    com.urbanairship.location.LocationPreferences getPreferences() -> c
+    void enableLocation() -> d
+    void disableLocation() -> e
+    void startAndBindService() -> r
+    void stopAndUnbindService() -> s
+    void enableBackgroundLocation() -> f
+    void enableForegroundLocation() -> g
+    void disableForegroundLocation() -> h
+    void disableBackgroundLocation() -> i
+    void startService() -> t
+    void stopService() -> u
+    void bindService() -> j
+    void unbindService() -> k
+    boolean isServiceBound() -> l
+    void recordCurrentLocation() -> m
+    void recordCurrentLocation(android.location.Criteria) -> a
+    java.lang.String getLocationIntentAction(java.lang.String) -> a
+    com.urbanairship.location.UALocationManager access$000() -> n
+    com.urbanairship.location.LocationPreferences access$100(com.urbanairship.location.UALocationManager) -> a
+    void access$200() -> o
+    void access$300() -> p
+    com.urbanairship.location.ILocationService access$402(com.urbanairship.location.ILocationService) -> a
+    boolean access$502(boolean) -> a
+    android.content.Context access$600() -> q
+com.urbanairship.location.UALocationManager$1 -> com.urbanairship.location.k:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.urbanairship.location.UALocationManager$2 -> com.urbanairship.location.l:
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+com.urbanairship.preference.ApidPreference -> com.urbanairship.preference.ApidPreference:
+    android.view.View onCreateView(android.view.ViewGroup) -> onCreateView
+    com.urbanairship.preference.UAPreference$PreferenceType getPreferenceType() -> a
+    void setValue(java.lang.Object) -> a
+com.urbanairship.preference.LocationBackgroundEnablePreference -> com.urbanairship.preference.LocationBackgroundEnablePreference:
+    com.urbanairship.preference.UAPreference$PreferenceType getPreferenceType() -> a
+    void setValue(java.lang.Object) -> a
+    android.view.View onCreateView(android.view.ViewGroup) -> onCreateView
+com.urbanairship.preference.LocationEnablePreference -> com.urbanairship.preference.LocationEnablePreference:
+    com.urbanairship.preference.UAPreference$PreferenceType getPreferenceType() -> a
+    void setValue(java.lang.Object) -> a
+    android.view.View onCreateView(android.view.ViewGroup) -> onCreateView
+com.urbanairship.preference.LocationForegroundEnablePreference -> com.urbanairship.preference.LocationForegroundEnablePreference:
+    com.urbanairship.preference.UAPreference$PreferenceType getPreferenceType() -> a
+    void setValue(java.lang.Object) -> a
+    android.view.View onCreateView(android.view.ViewGroup) -> onCreateView
+com.urbanairship.preference.PushEnablePreference -> com.urbanairship.preference.PushEnablePreference:
+    com.urbanairship.preference.UAPreference$PreferenceType getPreferenceType() -> a
+    void setValue(java.lang.Object) -> a
+    android.view.View onCreateView(android.view.ViewGroup) -> onCreateView
+com.urbanairship.preference.QuietTimeEnablePreference -> com.urbanairship.preference.QuietTimeEnablePreference:
+    com.urbanairship.preference.UAPreference$PreferenceType getPreferenceType() -> a
+    void setValue(java.lang.Object) -> a
+    android.view.View onCreateView(android.view.ViewGroup) -> onCreateView
+com.urbanairship.preference.QuietTimeEndPreference -> com.urbanairship.preference.QuietTimeEndPreference:
+    com.urbanairship.preference.UAPreference$PreferenceType getPreferenceType() -> a
+    void setValue(java.lang.Object) -> a
+    java.lang.String getSummary() -> b
+    void onDialogClosed(boolean) -> onDialogClosed
+    android.view.View onCreateView(android.view.ViewGroup) -> onCreateView
+com.urbanairship.preference.QuietTimePickerPreference -> com.urbanairship.preference.a:
+    android.widget.TimePicker timePicker -> a
+    long currentTime -> b
+    android.view.View onCreateView(android.view.ViewGroup) -> onCreateView
+    android.view.View onCreateDialogView() -> onCreateDialogView
+    void onDialogClosed(boolean) -> onDialogClosed
+    java.lang.String getSummary() -> b
+    java.util.Calendar getCalendar() -> c
+    void setValue(java.lang.Object) -> a
+    boolean shouldPersist() -> shouldPersist
+    java.lang.CharSequence getSummary() -> getSummary
+com.urbanairship.preference.QuietTimeStartPreference -> com.urbanairship.preference.QuietTimeStartPreference:
+    com.urbanairship.preference.UAPreference$PreferenceType getPreferenceType() -> a
+    void setValue(java.lang.Object) -> a
+    java.lang.String getSummary() -> b
+    void onDialogClosed(boolean) -> onDialogClosed
+    android.view.View onCreateView(android.view.ViewGroup) -> onCreateView
+com.urbanairship.preference.SoundEnablePreference -> com.urbanairship.preference.SoundEnablePreference:
+    com.urbanairship.preference.UAPreference$PreferenceType getPreferenceType() -> a
+    void setValue(java.lang.Object) -> a
+    android.view.View onCreateView(android.view.ViewGroup) -> onCreateView
+com.urbanairship.preference.UACheckBoxPreference -> com.urbanairship.preference.b:
+    android.view.View onCreateView(android.view.ViewGroup) -> onCreateView
+    void setValue(java.lang.Object) -> a
+    boolean shouldPersist() -> shouldPersist
+com.urbanairship.preference.UAPreference -> com.urbanairship.preference.c:
+    com.urbanairship.preference.UAPreference$PreferenceType getPreferenceType() -> a
+    void setValue(java.lang.Object) -> a
+com.urbanairship.preference.UAPreference$PreferenceType -> com.urbanairship.preference.d:
+    com.urbanairship.preference.UAPreference$PreferenceType PUSH_ENABLE -> a
+    com.urbanairship.preference.UAPreference$PreferenceType SOUND_ENABLE -> b
+    com.urbanairship.preference.UAPreference$PreferenceType VIBRATE_ENABLE -> c
+    com.urbanairship.preference.UAPreference$PreferenceType QUIET_TIME_ENABLE -> d
+    com.urbanairship.preference.UAPreference$PreferenceType QUIET_TIME_START -> e
+    com.urbanairship.preference.UAPreference$PreferenceType QUIET_TIME_END -> f
+    com.urbanairship.preference.UAPreference$PreferenceType LOCATION_ENABLE -> g
+    com.urbanairship.preference.UAPreference$PreferenceType LOCATION_FOREGROUND_ENABLE -> h
+    com.urbanairship.preference.UAPreference$PreferenceType LOCATION_BACKGROUND_ENABLE -> i
+    com.urbanairship.preference.UAPreference$PreferenceType APID -> j
+    com.urbanairship.preference.UAPreference$PreferenceType USER_ID -> k
+    com.urbanairship.preference.UAPreference$PreferenceType[] $VALUES -> l
+    com.urbanairship.preference.UAPreference$PreferenceType[] values() -> values
+    com.urbanairship.preference.UAPreference$PreferenceType valueOf(java.lang.String) -> valueOf
+com.urbanairship.preference.UAPreferenceAdapter -> com.urbanairship.preference.e:
+    int APID_MAX_RETRIES -> a
+    int APID_RETRY_DELAY -> b
+    com.urbanairship.push.PushPreferences pushPrefs -> c
+    com.urbanairship.location.LocationPreferences locPrefs -> d
+    java.util.Map preferences -> e
+    int apidRetryCount -> f
+    void applyUrbanAirshipPreferences() -> a
+    java.lang.Object getInternalPreference(com.urbanairship.preference.UAPreference$PreferenceType) -> a
+    void setInternalPreference(com.urbanairship.preference.UAPreference$PreferenceType,java.lang.Object) -> a
+    void checkForUAPreferences(android.preference.PreferenceGroup) -> a
+    void trackPreference(com.urbanairship.preference.UAPreference) -> a
+    boolean isServiceEnabledForPreferenceType(com.urbanairship.preference.UAPreference$PreferenceType) -> b
+    void access$000(com.urbanairship.preference.UAPreferenceAdapter,com.urbanairship.preference.UAPreference) -> a
+    java.util.Map access$100(com.urbanairship.preference.UAPreferenceAdapter) -> a
+com.urbanairship.preference.UAPreferenceAdapter$1 -> com.urbanairship.preference.f:
+    com.urbanairship.preference.UAPreference val$preference -> a
+    com.urbanairship.preference.UAPreferenceAdapter this$0 -> b
+    void run() -> run
+com.urbanairship.preference.UAPreferenceAdapter$2 -> com.urbanairship.preference.g:
+    com.urbanairship.preference.UAPreference$PreferenceType val$preferenceType -> a
+    com.urbanairship.preference.UAPreferenceAdapter this$0 -> b
+    boolean onPreferenceChange(android.preference.Preference,java.lang.Object) -> onPreferenceChange
+com.urbanairship.preference.UAPreferenceAdapter$3 -> com.urbanairship.preference.h:
+    int[] $SwitchMap$com$urbanairship$preference$UAPreference$PreferenceType -> a
+com.urbanairship.preference.VibrateEnablePreference -> com.urbanairship.preference.VibrateEnablePreference:
+    com.urbanairship.preference.UAPreference$PreferenceType getPreferenceType() -> a
+    void setValue(java.lang.Object) -> a
+    android.view.View onCreateView(android.view.ViewGroup) -> onCreateView
+com.urbanairship.push.BasicPushNotificationBuilder -> com.urbanairship.push.a:
+    int iconDrawableId -> a
+    java.lang.String appName -> b
+    int constantNotificationId -> c
+    android.app.Notification buildNotification(java.lang.String,java.util.Map) -> a
+    int getNextId(java.lang.String,java.util.Map) -> b
+com.urbanairship.push.CustomPushNotificationBuilder -> com.urbanairship.push.b:
+    int layout -> a
+    int layoutIconId -> b
+    int layoutSubjectId -> c
+    int layoutMessageId -> d
+    int layoutIconDrawableId -> e
+    int statusBarIconDrawableId -> f
+    int constantNotificationId -> g
+    android.net.Uri soundUri -> h
+    android.app.Notification buildNotification(java.lang.String,java.util.Map) -> a
+    int getNextId(java.lang.String,java.util.Map) -> b
+com.urbanairship.push.GCMMessageHandler -> com.urbanairship.push.c:
+    void handleIntentMessage(android.content.Intent) -> a
+com.urbanairship.push.GCMPushReceiver -> com.urbanairship.push.GCMPushReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.urbanairship.push.GCMRegistrar -> com.urbanairship.push.d:
+    long backoffTime -> a
+    void register() -> a
+    void unregister() -> b
+    void handleRegistrationIntent(android.content.Intent) -> a
+    void retryRegistration() -> d
+    void registrationFailed(java.lang.String) -> a
+    boolean isNewAppOrDevice() -> e
+    void validateManifest() -> c
+    boolean isGCMAvailable() -> f
+    boolean isPermissionKnown(java.lang.String) -> b
+    void checkRequiredPermission(java.lang.String) -> c
+    boolean startService(android.content.Intent) -> b
+com.urbanairship.push.PushManager -> com.urbanairship.push.e:
+    com.urbanairship.push.PushManager instance -> a
+    com.urbanairship.push.PushNotificationBuilder notificationBuilder -> b
+    java.lang.Class intentReceiver -> c
+    com.urbanairship.push.PushPreferences preferences -> d
+    boolean deviceTagsEnabled -> e
+    java.util.HashSet canonicalIds -> f
+    void init() -> a
+    com.urbanairship.push.PushManager shared() -> b
+    void startService() -> c
+    void enablePush() -> d
+    void disablePush() -> e
+    void setNotificationBuilder(com.urbanairship.push.PushNotificationBuilder) -> a
+    void setIntentReceiver(java.lang.Class) -> a
+    com.urbanairship.push.PushNotificationBuilder getNotificationBuilder() -> f
+    java.lang.Class getIntentReceiver() -> g
+    com.urbanairship.push.PushPreferences getPreferences() -> h
+    void sendRegistrationFinishedBroadcast(boolean) -> a
+    void updateApidIfNecessary() -> i
+    void updateApid() -> j
+    void deleteApid(java.lang.String) -> a
+    java.lang.String getAPID() -> k
+    void setGcmId(java.lang.String) -> b
+    boolean getDeviceTagsEnabled() -> l
+    void createPushArrivedEvent(java.lang.String) -> c
+    boolean isCorrectApid(java.lang.String) -> d
+    boolean isPushEnabled() -> n
+    boolean isUniqueCanonicalId(java.lang.String) -> e
+    void alertHostApplication(com.urbanairship.push.PushMessage,int) -> a
+    void deliverPush(com.urbanairship.push.PushMessage) -> a
+    void validateManifest() -> m
+com.urbanairship.push.PushMessage -> com.urbanairship.push.f:
+    android.os.Bundle pushBundle -> a
+    boolean isExpired() -> a
+    boolean isPing() -> b
+    java.lang.String getCanonicalPushId() -> c
+    java.lang.String getPushApid() -> d
+    java.lang.String getRichPushMessageId() -> e
+    java.lang.String getAlert() -> f
+    int buildAndDisplayNotification() -> g
+    android.os.Bundle getPushBundle() -> h
+    java.util.Map createExtrasMap() -> i
+    java.lang.String toString() -> toString
+com.urbanairship.push.PushNotificationBuilder -> com.urbanairship.push.g:
+    android.app.Notification buildNotification(java.lang.String,java.util.Map) -> a
+    int getNextId(java.lang.String,java.util.Map) -> b
+com.urbanairship.push.PushPreferences -> com.urbanairship.push.h:
+    void sendPrefsChangedEvent() -> p
+    boolean isPushEnabled() -> a
+    void setPushEnabled(boolean) -> a
+    boolean isSoundEnabled() -> b
+    void setSoundEnabled(boolean) -> b
+    boolean isVibrateEnabled() -> c
+    void setVibrateEnabled(boolean) -> c
+    boolean isAPIDReady() -> d
+    void setAPIDReady(boolean) -> d
+    java.lang.String getPushId() -> e
+    boolean setPushId(java.lang.String) -> c
+    boolean setPushSecret(java.lang.String) -> d
+    boolean isQuietTimeEnabled() -> f
+    void setQuietTimeEnabled(boolean) -> e
+    boolean isInQuietTime() -> g
+    java.util.Date[] getQuietTimeInterval() -> h
+    void setQuietTimeInterval(java.util.Date,java.util.Date) -> a
+    java.lang.String getAlias() -> i
+    java.util.Set getTags() -> j
+    java.lang.String getGcmId() -> k
+    void setGcmId(java.lang.String) -> e
+    void setApidUpdateNeeded(boolean) -> f
+    boolean isApidUpdateNeeded() -> l
+    void setAppVersionCode(int) -> a
+    int getAppVersionCode() -> m
+    void setDeviceId(java.lang.String) -> f
+    java.lang.String getDeviceId() -> n
+    long getLastApidRegistrationTime() -> o
+    void setLastApidRegistrationTime(long) -> a
+com.urbanairship.push.PushRegistrationBuilder -> com.urbanairship.push.i:
+    com.urbanairship.push.PushRegistrationPayload buildWithCurrentPreferences() -> a
+com.urbanairship.push.PushRegistrationPayload -> com.urbanairship.push.j:
+    java.lang.String alias -> a
+    java.lang.String gcmRegistrationId -> b
+    java.util.Set tags -> c
+    org.json.JSONObject asJSON() -> a
+com.urbanairship.push.PushService -> com.urbanairship.push.PushService:
+    com.urbanairship.push.PushPreferences preferences -> a
+    android.util.SparseArray wakeLocks -> b
+    int nextWakeLockID -> c
+    void onCreate() -> onCreate
+    void onHandleIntent(android.content.Intent) -> onHandleIntent
+    void runGcmIntentInService(android.content.Context,android.content.Intent) -> a
+    void scheduleAction(java.lang.String,java.lang.String) -> a
+    void updateApid() -> b
+    void deleteApid(java.lang.String) -> a
+    void startPushService() -> c
+    void releaseWakeLock(int) -> a
+    int acquireWakeLock() -> a
+com.urbanairship.push.embedded.BoxOfficeClient -> com.urbanairship.push.a.a:
+    java.lang.String ANDROID_LIB_VERSION_PREFIX -> a
+    java.lang.String generateApid() -> b
+    java.lang.String generateOrRetrieveApid() -> c
+    java.lang.String firstRun() -> a
+    void setRequestHeaders(com.urbanairship.restclient.Request) -> a
+    java.lang.String getHashedDeviceId(android.content.Context) -> a
+com.urbanairship.push.embedded.BoxOfficeClient$BoxOfficeException -> com.urbanairship.push.a.b:
+com.urbanairship.push.embedded.BoxOfficeClient$FatalBoxOfficeException -> com.urbanairship.push.a.c:
+com.urbanairship.push.embedded.BoxOfficeClient$FirstRunForbiddenException -> com.urbanairship.push.a.d:
+com.urbanairship.push.embedded.Config -> com.urbanairship.push.a.e:
+com.urbanairship.push.embedded.Config$BoxOffice -> com.urbanairship.push.a.f:
+    java.lang.String url -> a
+com.urbanairship.push.embedded.Network -> com.urbanairship.push.a.g:
+    android.net.ConnectivityManager connMan() -> b
+    android.net.NetworkInfo info() -> c
+    boolean isConnected() -> a
+com.urbanairship.restclient.AppAuthenticatedRequest -> com.urbanairship.a.a:
+com.urbanairship.restclient.Request -> com.urbanairship.a.b:
+    boolean verifySSLHostnames -> a
+    java.lang.String method -> b
+    org.apache.http.impl.client.DefaultHttpClient httpClient -> c
+    void setUserAgent() -> b
+    void setTimeout(int) -> a
+    void setSocketBufferSize(int) -> b
+    void setPreemptiveAuth(java.lang.String,java.lang.String) -> a
+    java.lang.String getMethod() -> getMethod
+    com.urbanairship.restclient.Response execute() -> a
+com.urbanairship.restclient.Response -> com.urbanairship.a.c:
+    org.apache.http.HttpResponse resp -> a
+    java.lang.String body -> b
+    int status() -> a
+    org.apache.http.Header getFirstHeader(java.lang.String) -> a
+    java.lang.String body() -> b
+com.urbanairship.richpush.RichPushInbox -> com.urbanairship.richpush.a:
+    com.urbanairship.richpush.RichPushInbox instance -> b
+    com.urbanairship.richpush.RichPushInbox$SentAtRichPushMessageComparator richPushMessageComparator -> c
+    java.util.List pendingDeletionMessageIds -> d
+    java.util.List listeners -> e
+    com.urbanairship.richpush.RichPushMessageCache messageCache -> f
+    java.util.concurrent.ExecutorService executor -> a
+    com.urbanairship.richpush.RichPushInbox shared() -> a
+    void deleteMessages(java.util.Set) -> a
+    void updateCache() -> b
+    void updateCacheFromDB() -> c
+    com.urbanairship.richpush.RichPushMessage messageFromCursor(android.database.Cursor) -> a
+    void notifyListeners() -> d
+    java.util.List access$000(com.urbanairship.richpush.RichPushInbox) -> a
+    void access$100(com.urbanairship.richpush.RichPushInbox) -> b
+    void access$200(com.urbanairship.richpush.RichPushInbox) -> c
+    java.util.List access$300(com.urbanairship.richpush.RichPushInbox) -> d
+com.urbanairship.richpush.RichPushInbox$3 -> com.urbanairship.richpush.b:
+    java.util.Set val$messageIds -> a
+    com.urbanairship.richpush.RichPushInbox this$0 -> b
+    void run() -> run
+com.urbanairship.richpush.RichPushInbox$4 -> com.urbanairship.richpush.c:
+    com.urbanairship.richpush.RichPushInbox this$0 -> a
+    void run() -> run
+com.urbanairship.richpush.RichPushInbox$5 -> com.urbanairship.richpush.d:
+    com.urbanairship.richpush.RichPushInbox this$0 -> a
+    void run() -> run
+com.urbanairship.richpush.RichPushInbox$Listener -> com.urbanairship.richpush.e:
+    void onUpdateInbox() -> a
+com.urbanairship.richpush.RichPushInbox$SentAtRichPushMessageComparator -> com.urbanairship.richpush.f:
+    int compare(com.urbanairship.richpush.RichPushMessage,com.urbanairship.richpush.RichPushMessage) -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.urbanairship.richpush.RichPushManager -> com.urbanairship.richpush.RichPushManager:
+    com.urbanairship.richpush.RichPushManager instance -> d
+    java.lang.Class jsInterface -> e
+    java.lang.String jsIdentifier -> f
+    com.urbanairship.richpush.RichPushUser user -> g
+    com.urbanairship.richpush.RichPushManager$UpdateResultReceiver updateMessagesResultReceiver -> h
+    com.urbanairship.richpush.RichPushManager$UpdateResultReceiver updateUserResultReceiver -> a
+    com.urbanairship.richpush.RichPushManager$UpdateResultReceiver retrieveMessageResultReceiver -> b
+    boolean isRefreshingMessages -> i
+    com.urbanairship.richpush.RichPushResolver resolver -> c
+    java.util.Vector listeners -> j
+    com.urbanairship.richpush.RichPushManager shared() -> a
+    com.urbanairship.richpush.RichPushUser getRichPushUser() -> b
+    void init() -> c
+    void retrieveRichPushMessage(java.util.Map) -> a
+    void updateUser() -> d
+    void updateUserIfNecessary() -> e
+    void retrieveMessage(java.lang.String) -> a
+    void startUpdateService(java.lang.String,android.os.Bundle) -> a
+    boolean isRichPushMessage(java.util.Map) -> b
+    boolean access$002(com.urbanairship.richpush.RichPushManager,boolean) -> a
+    java.util.Vector access$100(com.urbanairship.richpush.RichPushManager) -> a
+    com.urbanairship.richpush.RichPushManager access$200() -> f
+    com.urbanairship.richpush.RichPushUser access$300(com.urbanairship.richpush.RichPushManager) -> b
+com.urbanairship.richpush.RichPushManager$1 -> com.urbanairship.richpush.RichPushManager$1:
+    com.urbanairship.richpush.RichPushManager this$0 -> a
+    void onReceiveResult(int,android.os.Bundle) -> onReceiveResult
+com.urbanairship.richpush.RichPushManager$2 -> com.urbanairship.richpush.RichPushManager$2:
+    com.urbanairship.richpush.RichPushManager this$0 -> a
+    void onReceiveResult(int,android.os.Bundle) -> onReceiveResult
+com.urbanairship.richpush.RichPushManager$3 -> com.urbanairship.richpush.RichPushManager$3:
+    com.urbanairship.richpush.RichPushManager this$0 -> a
+    void onReceiveResult(int,android.os.Bundle) -> onReceiveResult
+com.urbanairship.richpush.RichPushManager$Listener -> com.urbanairship.richpush.g:
+    void onUpdateMessages(boolean) -> a
+    void onUpdateUser(boolean) -> b
+    void onRetrieveMessage(boolean,java.lang.String) -> a
+com.urbanairship.richpush.RichPushManager$UpdateResultReceiver -> com.urbanairship.richpush.RichPushManager$UpdateResultReceiver:
+    com.urbanairship.richpush.RichPushManager this$0 -> b
+com.urbanairship.richpush.RichPushMessage -> com.urbanairship.richpush.h:
+    java.text.SimpleDateFormat UA_DATE_FORMATTER -> a
+    boolean deleted -> b
+    boolean unreadClient -> c
+    boolean unreadOrigin -> d
+    android.os.Bundle extras -> e
+    long sentMS -> f
+    java.lang.Long expirationMS -> g
+    java.lang.String messageId -> h
+    java.lang.String messageUrl -> i
+    java.lang.String messageBodyUrl -> j
+    java.lang.String messageReadUrl -> k
+    java.lang.String title -> l
+    org.json.JSONObject rawMessageJSON -> m
+    com.urbanairship.richpush.RichPushMessage messageFromCursor(android.database.Cursor) -> a
+    java.lang.Long getMillisecondsFromTimeStamp(java.lang.String,java.lang.Long) -> a
+    android.os.Bundle jsonToBundle(org.json.JSONObject) -> a
+    java.lang.String getMessageId() -> a
+    boolean isRead() -> b
+    java.util.Date getSentDate() -> c
+    boolean isExpired() -> d
+    boolean isDeleted() -> e
+    int compareTo(com.urbanairship.richpush.RichPushMessage) -> a
+    boolean equals(java.lang.Object) -> equals
+    int hashCode() -> hashCode
+    boolean areObjectsEqual(java.lang.Object,java.lang.Object) -> a
+    int compareTo(java.lang.Object) -> compareTo
+com.urbanairship.richpush.RichPushMessageCache -> com.urbanairship.richpush.i:
+    java.util.Map unreadMessages -> a
+    java.util.Map readMessages -> b
+    void addMessage(com.urbanairship.richpush.RichPushMessage) -> a
+    com.urbanairship.richpush.RichPushMessage getMessage(java.lang.String) -> a
+    void removeMessage(com.urbanairship.richpush.RichPushMessage) -> b
+com.urbanairship.richpush.RichPushMessageJavaScript -> com.urbanairship.richpush.j:
+    java.lang.String deviceModel -> a
+com.urbanairship.richpush.RichPushResolver -> com.urbanairship.richpush.k:
+    android.database.Cursor getAllMessages() -> a
+    android.database.Cursor getReadUpdatedMessages() -> b
+    android.database.Cursor getDeletedMessages() -> c
+    int markMessagesDeleted(java.util.Set) -> a
+    int deleteMessages(java.util.Set) -> b
+    int insertMessages(android.content.ContentValues[]) -> a
+    int updateMessage(java.lang.String,android.content.ContentValues) -> a
+    int updateMessages(java.util.Set,android.content.ContentValues) -> a
+    android.net.Uri appendMessageIdsToUri(java.util.Collection) -> a
+    android.net.Uri appendMessageIdToUri(java.lang.String) -> a
+com.urbanairship.richpush.RichPushUpdateService -> com.urbanairship.richpush.l:
+    void onCreate() -> onCreate
+    void onHandleIntent(android.content.Intent) -> onHandleIntent
+    void respond(android.os.ResultReceiver,boolean,android.os.Bundle) -> a
+    void respond(android.os.ResultReceiver,boolean) -> a
+    void messagesUpdate(android.os.ResultReceiver) -> a
+    void userUpdate(android.os.ResultReceiver) -> b
+    boolean createUser() -> a
+    boolean updateUser() -> b
+    void handleDeletedMessages() -> c
+    void handleReadMessages() -> d
+    boolean updateMessages() -> e
+    boolean deleteMessagesOnServer(java.util.Set) -> a
+    boolean markMessagesReadOnServer(java.util.Set) -> b
+    android.content.ContentValues[] getMessagesFromServer() -> f
+    com.urbanairship.restclient.Response sendRequest(java.lang.String,java.lang.String,org.apache.http.HttpEntity) -> a
+    boolean sendRequest(java.lang.String,java.lang.String,org.apache.http.HttpEntity,int) -> a
+    com.urbanairship.restclient.Request buildRequest(java.lang.String,java.lang.String,org.apache.http.HttpEntity) -> b
+    org.apache.http.HttpEntity buildMessagesPayload(java.lang.String,java.util.Set) -> a
+    java.lang.String formatUrl(java.lang.String,java.lang.String[]) -> a
+    android.content.ContentValues[] messagesFromResponse(com.urbanairship.restclient.Response) -> a
+    com.urbanairship.richpush.RichPushUser getUser() -> g
+    java.lang.String getHostUrl() -> h
+    java.util.Set getMessageIdsFromCursor(android.database.Cursor) -> a
+com.urbanairship.richpush.RichPushUser -> com.urbanairship.richpush.m:
+    java.lang.Object lock -> b
+    com.urbanairship.richpush.RichPushUser$UserPreferences preferences -> a
+    boolean isCreated() -> a
+    java.lang.String newUserUrl() -> b
+    java.lang.String userUrl() -> c
+    void updateUserAttributes(java.lang.String) -> a
+    org.json.JSONObject getUserAttributes() -> d
+    java.util.HashSet addCurrentApid(java.util.HashSet) -> a
+    java.util.HashSet jsonArrayToSet(org.json.JSONArray) -> a
+    com.urbanairship.richpush.RichPushInbox getInbox() -> e
+    java.lang.String getId() -> f
+    java.lang.String getPassword() -> g
+    long getLastUpdateTime() -> h
+    void setLastUpdateTime(long) -> a
+com.urbanairship.richpush.RichPushUser$UserPreferences -> com.urbanairship.richpush.n:
+    java.util.HashSet getSet(java.lang.String,java.util.HashSet) -> a
+    void putSet(java.lang.String,java.util.HashSet) -> b
+com.urbanairship.richpush.RichPushUserAuthenticatedRequest -> com.urbanairship.richpush.o:
+com.urbanairship.util.DataManager -> com.urbanairship.b.a:
+    android.database.sqlite.SQLiteOpenHelper openHelper -> a
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> a
+    void bindValuesToSqlLiteStatment(android.database.sqlite.SQLiteStatement,android.content.ContentValues) -> a
+    android.database.sqlite.SQLiteStatement getInsertStatement(java.lang.String,android.database.sqlite.SQLiteDatabase) -> a
+    android.database.sqlite.SQLiteDatabase getWritableDatabase() -> d
+    android.database.sqlite.SQLiteDatabase getReadableDatabase() -> e
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> b
+    void onDowngrade(android.database.sqlite.SQLiteDatabase,int,int) -> a
+    java.lang.String buildInsertStatement(java.lang.String,java.lang.String[]) -> a
+    void bind(android.database.sqlite.SQLiteStatement,int,int) -> a
+    void bind(android.database.sqlite.SQLiteStatement,int,java.lang.Boolean) -> a
+    void bind(android.database.sqlite.SQLiteStatement,int,java.lang.Boolean,java.lang.Boolean) -> a
+    void bind(android.database.sqlite.SQLiteStatement,int,java.lang.String) -> a
+    int delete(java.lang.String,java.lang.String,java.lang.String[]) -> a
+    java.util.List bulkInsert(java.lang.String,android.content.ContentValues[]) -> a
+    long insert(java.lang.String,android.content.ContentValues) -> a
+    int update(java.lang.String,android.content.ContentValues,java.lang.String,java.lang.String[]) -> a
+    android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String) -> a
+    android.database.Cursor query(java.lang.String,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.String) -> a
+    void close() -> f
+    boolean tryExecuteStatement(android.database.sqlite.SQLiteStatement,android.content.ContentValues) -> b
+com.urbanairship.util.DataManager$1 -> com.urbanairship.b.b:
+    java.lang.String val$name -> a
+    com.urbanairship.util.DataManager this$0 -> b
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+    void onDowngrade(android.database.sqlite.SQLiteDatabase,int,int) -> onDowngrade
+com.urbanairship.util.IntentUtils -> com.urbanairship.b.c:
+    void scheduleIntent(android.content.Context,android.content.Intent,long) -> a
+    void scheduleIntent(android.content.Context,android.content.Intent,int,long) -> a
+com.urbanairship.util.NotificationIDGenerator -> com.urbanairship.b.d:
+    int start -> a
+    int range -> b
+    android.content.SharedPreferences getPreferences() -> b
+    void putInt(java.lang.String,int) -> a
+    int getInt(java.lang.String,int) -> b
+    int nextID() -> a
+com.urbanairship.util.ServiceNotBoundException -> com.urbanairship.b.e:
+com.urbanairship.util.UAStringUtil -> com.urbanairship.b.f:
+    java.lang.String repeat(java.lang.String,int,java.lang.String) -> a
+    boolean isEmpty(java.lang.String) -> a
+    boolean equals(java.lang.String,java.lang.String) -> a
+    java.lang.String join(java.util.Collection,java.lang.String) -> a

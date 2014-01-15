@@ -1,0 +1,458 @@
+com.digby.test.jpushtest.BuildConfig
+com.digby.test.jpushtest.IntentReceiver:
+    private static final java.lang.String logTag
+com.digby.test.jpushtest.LocationActivity:
+    android.graphics.drawable.Drawable mapIcon
+    android.widget.LinearLayout mapLayout
+com.digby.test.jpushtest.Manifest
+com.digby.test.jpushtest.Manifest$permission
+com.digby.test.jpushtest.R
+com.digby.test.jpushtest.R$attr
+com.digby.test.jpushtest.R$color
+com.digby.test.jpushtest.R$drawable
+com.digby.test.jpushtest.R$id
+com.digby.test.jpushtest.R$layout
+com.digby.test.jpushtest.R$raw
+com.digby.test.jpushtest.R$string
+com.digby.test.jpushtest.R$style
+com.digby.test.jpushtest.R$xml
+com.digby.test.jpushtest.preference.AddTagsPreference
+com.digby.test.jpushtest.preference.AddTagsPreference$1
+com.digby.test.jpushtest.preference.AddTagsPreference$TagsAdapter
+com.digby.test.jpushtest.preference.AddTagsPreference$TagsAdapter$1
+com.digby.test.jpushtest.preference.SetAliasPreference
+com.urbanairship.Autopilot:
+    public static final java.lang.String AUTOPILOT_MANIFEST_KEY
+com.urbanairship.InternalOptions:
+    public boolean isValid()
+com.urbanairship.LocationOptions:
+    private static final int MIN_UPDATE_INTERVAL_SECONDS
+    private static final int MAX_UPDATE_INTERVAL_SECONDS
+    private static final int MIN_UPDATE_INTERVAL_METERS
+    private static final int MAX_UPDATE_INTERVAL_METERS
+    private static final int MIN_BG_REPORTING_INTERVAL_SECONDS
+    private static final int MAX_BG_REPORTING_INTERVAL_SECONDS
+    public static com.urbanairship.LocationOptions loadDefaultOptions(android.content.Context)
+com.urbanairship.Logger:
+    private Logger()
+    public static void warn(java.lang.Throwable)
+    public static void debug(java.lang.String,java.lang.Throwable)
+com.urbanairship.Options:
+    public abstract boolean isValid()
+com.urbanairship.PreferencesDataManager:
+    static final java.lang.String COLUMN_NAME_KEY
+    static final java.lang.String COLUMN_NAME_VALUE
+    static final java.lang.String TABLE_NAME
+    static final java.lang.String DATABASE_NAME
+    static final int DATABASE_VERSION
+    protected static final java.lang.String WHERE_CLAUSE_KEY
+com.urbanairship.PreferencesResolver:
+    protected static final java.lang.String WHERE_CLAUSE_KEY
+com.urbanairship.RichPushDataManager:
+    public static final java.lang.String TABLE_NAME
+    private static final java.lang.String DATABASE_NAME
+    private static final int DATABASE_VERSION
+com.urbanairship.RichPushTable
+com.urbanairship.UAirship:
+    private static final java.lang.String version
+    public static void takeOff(android.app.Application)
+    public static void land()
+com.urbanairship.UrbanAirshipProvider:
+    public static final java.lang.String DB_CHANGE_KEYS_KEY
+    public static final java.lang.String DB_CHANGE_ACTION_KEY
+    public static final java.lang.String KEYS_DELIMITER
+    static final java.lang.String SINGLE_SUFFIX
+    static final java.lang.String MULTIPLE_SUFFIX
+    static final java.lang.String RICH_PUSH_CONTENT_TYPE
+    static final java.lang.String RICH_PUSH_CONTENT_ITEM_TYPE
+    static final java.lang.String PREFERENCES_CONTENT_TYPE
+    static final java.lang.String PREFERENCES_CONTENT_ITEM_TYPE
+    public static final java.lang.String DELETE_ACTION
+    public static final java.lang.String INSERT_ACTION
+    public static final java.lang.String REPLACE_ACTION
+    public static final java.lang.String UPDATE_ACTION
+    private static final int RICHPUSH_MESSAGES_URI_TYPE
+    private static final int RICHPUSH_MESSAGE_URI_TYPE
+    private static final int PREFERENCES_URI_TYPE
+    private static final int PREFERENCE_URI_TYPE
+    private static final int KEYS_LOCATION
+com.urbanairship.analytics.ActivityMonitor:
+    private static final int BACKGROUND_DELAY_MS
+com.urbanairship.analytics.ActivityStartedEvent:
+    static final java.lang.String TYPE
+com.urbanairship.analytics.ActivityStoppedEvent:
+    static final java.lang.String TYPE
+    ActivityStoppedEvent(com.urbanairship.analytics.Environment,java.lang.String)
+com.urbanairship.analytics.Analytics:
+    public static final java.lang.String ACTION_ANALYTICS_START
+    java.lang.String getServer()
+com.urbanairship.analytics.Analytics$Session:
+    public void log()
+com.urbanairship.analytics.AnalyticsPreferences:
+    private static final java.lang.String KEY_PREFIX
+    private static final java.lang.String MAX_TOTAL_DB_SIZE_KEY
+    private static final java.lang.String MAX_BATCH_SIZE_KEY
+    private static final java.lang.String MAX_WAIT_KEY
+    private static final java.lang.String MIN_BATCH_INTERVAL_KEY
+    private static final java.lang.String LAST_SEND_KEY
+    static final int MAX_TOTAL_DB_SIZE
+    static final int MAX_BATCH_SIZE
+    static final int MAX_WAIT_MS
+    static final int MIN_BATCH_INTERVAL_MS
+com.urbanairship.analytics.AppBackgroundEvent:
+    static final java.lang.String TYPE
+com.urbanairship.analytics.AppForegroundEvent:
+    static final java.lang.String TYPE
+com.urbanairship.analytics.Event:
+    static final java.lang.String TYPE_KEY
+    static final java.lang.String TIME_KEY
+    static final java.lang.String DATA_KEY
+    static final java.lang.String EVENT_ID_KEY
+    static final java.lang.String APID_KEY
+    static final java.lang.String SESSION_ID_KEY
+    static final java.lang.String CONNECTION_TYPE_KEY
+    static final java.lang.String CONNECTION_SUBTYPE_KEY
+    static final java.lang.String CARRIER_KEY
+    static final java.lang.String PUSH_ID_KEY
+    static final java.lang.String NOTIFICATION_TYPES_KEY
+    static final java.lang.String PUSH_ENABLED_KEY
+    static final java.lang.String QUIET_TIME_KEY
+    static final java.lang.String TIME_ZONE_KEY
+    static final java.lang.String DAYLIGHT_SAVINGS_KEY
+    static final java.lang.String OS_VERSION_KEY
+    static final java.lang.String LIB_VERSION_KEY
+    static final java.lang.String PACKAGE_VERSION_KEY
+    static final java.lang.String CLASS_NAME_KEY
+    static final java.lang.String TRANSPORT_KEY
+com.urbanairship.analytics.EventDataManager:
+    private static final java.lang.String DATABASE_NAME
+    private static final int DATABASE_VERSION
+    public boolean deleteEvent(java.lang.String)
+com.urbanairship.analytics.EventDataManager$Events
+com.urbanairship.analytics.EventRequestFactory:
+    private static final boolean USE_GZIP
+    EventRequestFactory()
+com.urbanairship.analytics.EventService:
+    public static final java.lang.String ACTION_SEND
+com.urbanairship.analytics.EventUploadManager:
+    public static final int DEFAULT_BATCH_SIZE
+    public static final int MAX_WAIT_MS
+    public static final int MIN_BATCH_INTERVAL_MS
+    public static final int MAX_UPLOAD_RETRY_INTERVAL_MS
+    public static final java.lang.String MAX_TOTAL_DB_SIZE_KEY
+    public static final java.lang.String MAX_BATCH_SIZE_KEY
+    public static final java.lang.String MAX_WAIT_KEY
+    public static final java.lang.String MIN_BATCH_INTERVAL_KEY
+    public static final java.lang.String LAST_SEND_KEY
+com.urbanairship.analytics.InstrumentedListActivity
+com.urbanairship.analytics.LifeCycleCallbacks:
+    LifeCycleCallbacks()
+com.urbanairship.analytics.LocationEvent:
+    private static final java.lang.String TYPE
+    static final java.lang.String LATITUDE_KEY
+    static final java.lang.String LONGITUDE_KEY
+    static final java.lang.String REQUESTED_ACCURACY_KEY
+    static final java.lang.String UPDATE_TYPE_KEY
+    static final java.lang.String PROVIDER_KEY
+    static final java.lang.String H_ACCURACY_KEY
+    static final java.lang.String V_ACCURACY_KEY
+    static final java.lang.String FOREGROUND_KEY
+    static final java.lang.String UPDATE_DISTANCE_KEY
+com.urbanairship.analytics.PushArrivedEvent:
+    static final java.lang.String TYPE
+com.urbanairship.analytics.PushPreferencesChangedEvent:
+    static final java.lang.String TYPE
+com.urbanairship.analytics.PushServiceStartedEvent:
+    static final java.lang.String TYPE
+com.urbanairship.location.ILocationService$Stub:
+    private static final java.lang.String DESCRIPTOR
+    static final int TRANSACTION_getLocation
+    static final int TRANSACTION_createLocationEvent
+    static final int TRANSACTION_getCriteria
+    static final int TRANSACTION_setCriteria
+    static final int TRANSACTION_resetProviders
+    static final int TRANSACTION_getCurrentProvider
+    static final int TRANSACTION_getBestProvider
+    static final int TRANSACTION_requestSingleLocationUpdate
+com.urbanairship.location.ILocationService$Stub$Proxy:
+    public java.lang.String getInterfaceDescriptor()
+com.urbanairship.location.LocationPreferences:
+    private static final java.lang.String KEY_PREFIX
+    private static final java.lang.String LOCATION_ENABLED_KEY
+    private static final java.lang.String BACKGROUND_LOCATION_ENABLED_KEY
+    private static final java.lang.String FOREGROUND_LOCATION_ENABLED_KEY
+com.urbanairship.location.LocationService:
+    public static final java.lang.String ACTION_START
+    public static final java.lang.String ACTION_STOP
+    public static final java.lang.String ACTION_RECORD_CURRENT_LOCATION
+    public static final java.lang.String REQUESTED_ACCURACY_KEY
+    public static final java.lang.String REQUESTED_CRITERIA
+    public static final java.lang.String ACTION_SUFFIX_LOCATION_CHANGED
+    public static final java.lang.String ACTION_SUFFIX_SINGLE_LOCATION_CHANGED
+com.urbanairship.location.UALocationManager:
+    public static final java.lang.String ACTION_SUFFIX_LOCATION_UPDATE
+    public static final java.lang.String LOCATION_KEY
+    public static final java.lang.String ACTION_SUFFIX_LOCATION_SERVICE_BOUND
+    public static final java.lang.String ACTION_SUFFIX_LOCATION_SERVICE_UNBOUND
+    public android.location.Location getLocation()
+    public void recordLocation(android.location.Location)
+    public void recordLocation(android.location.Location,int,int)
+    public android.location.Criteria getCriteria()
+    public void resetProviders(android.location.Criteria)
+    public java.lang.String getCurrentProvider()
+    public java.lang.String getBestProvider()
+    private void exceptIfNotBound()
+com.urbanairship.preference.UserIdPreference
+com.urbanairship.push.GCMMessageHandler:
+    public static final java.lang.String ACTION_GCM_RECEIVE
+    public static final java.lang.String ACTION_GCM_DELETED_MESSAGES
+    public static final java.lang.String EXTRA_GCM_MESSAGE_TYPE
+    public static final java.lang.String EXTRA_GCM_TOTAL_DELETED
+    public static final java.lang.String GCM_DELETED_MESSAGES_VALUE
+    public GCMMessageHandler()
+com.urbanairship.push.GCMRegistrar:
+    public static final java.lang.String EXTRA_GCM_REGISTRATION_ID
+    private static final java.lang.String PERMISSION_RECEIVE
+    private static final java.lang.String ACTION_GCM_REGISTER
+    private static final java.lang.String ACTION_GCM_UNREGISTER
+    static final java.lang.String ACTION_GCM_REGISTRATION_RESPONSE
+    private static final long STARTING_BACKOFF_TIME
+    private static final long MAX_BACKOFF_TIME
+    private GCMRegistrar()
+com.urbanairship.push.PushManager:
+    static final java.lang.String EXTRA_PING
+    public static final java.lang.String EXTRA_ALERT
+    public static final java.lang.String EXTRA_SEND_ID
+    public static final java.lang.String ACTION_REGISTRATION_FINISHED
+    public static final java.lang.String ACTION_PUSH_RECEIVED
+    public static final java.lang.String ACTION_NOTIFICATION_OPENED
+    public static final java.lang.String ACTION_NOTIFICATION_OPENED_PROXY
+    public static final java.lang.String EXTRA_PUSH_ID
+    public static final java.lang.String EXTRA_NOTIFICATION_ID
+    public static final java.lang.String EXTRA_STRING_EXTRA
+    public static final java.lang.String EXTRA_APID
+    public static final java.lang.String EXTRA_REGISTRATION_VALID
+    public static final java.lang.String EXTRA_REGISTRATION_ERROR
+    public static final java.lang.String EXTRA_EXPIRATION
+    public static final java.lang.String EXTRA_CONTENT_INTENT
+    static final long APID_REREGISTRATION_INTERVAL_MS
+    public void setAliasAndTags(java.lang.String,java.util.Set)
+    public void setAlias(java.lang.String)
+    public void setTags(java.util.Set)
+    public java.lang.String getAlias()
+    public java.util.Set getTags()
+    public java.lang.String getGcmId()
+    public void setDeviceTagsEnabled(boolean)
+com.urbanairship.push.PushMessage:
+    java.lang.String getSendId()
+com.urbanairship.push.PushPreferences:
+    private static final java.lang.String KEY_PREFIX
+    private static final java.lang.String PUSH_ENABLED_KEY
+    private static final java.lang.String SOUND_ENABLED_KEY
+    private static final java.lang.String VIBRATE_ENABLED_KEY
+    private static final java.lang.String RETRY_AFTER_KEY
+    private static final java.lang.String APID_KEY
+    private static final java.lang.String APID_READY_KEY
+    private static final java.lang.String BOX_OFFICE_SECRET_KEY
+    private static final java.lang.String ALIAS_KEY
+    private static final java.lang.String TAGS_KEY
+    private static final java.lang.String GCM_REGISTRATION_ID_KEY
+    private static final java.lang.String APID_UPDATE_NEEDED_KEY
+    private static final java.lang.String LAST_APID_REGISTRATION_TIME_KEY
+    private static final java.lang.String APP_VERSION_KEY
+    private static final java.lang.String DEVICE_ID_KEY
+    public java.lang.String getPushSecret()
+    public long getRetryAfter()
+    public void setRetryAfter(long)
+    public void setAlias(java.lang.String)
+    public void setTags(java.util.Set)
+com.urbanairship.push.PushPreferences$QuietTime
+com.urbanairship.push.PushRegistrationBuilder:
+    public PushRegistrationBuilder()
+com.urbanairship.push.PushRegistrationPayload:
+    public static final java.lang.String ALIAS_KEY
+    public static final java.lang.String GCM_ID_KEY
+    public static final java.lang.String TAGS_KEY
+    public PushRegistrationPayload(java.lang.String,java.lang.String)
+    public java.lang.String getAlias()
+    public java.lang.String getGcmRegistrationId()
+    public java.util.Set getTags()
+com.urbanairship.push.PushService:
+    protected static final java.lang.String ACTION_UPDATE_APID
+    protected static final java.lang.String ACTION_DELETE_APID
+    protected static final java.lang.String ACTION_GCM_REGISTRATION
+    protected static final java.lang.String ACTION_START_PUSH_SERVICE
+    protected static final java.lang.String EXTRA_WAKE_LOCK_ID
+    private static final long API_RETRY_INTERVAL_MS
+    private static final long WAKE_LOCK_TIMEOUT_MS
+com.urbanairship.push.embedded.BoxOfficeClient$BoxOfficeException:
+    private static final long serialVersionUID
+com.urbanairship.push.embedded.BoxOfficeClient$FatalBoxOfficeException:
+    private static final long serialVersionUID
+com.urbanairship.push.embedded.BoxOfficeClient$FirstRunForbiddenException:
+    private static final long serialVersionUID
+com.urbanairship.push.embedded.Config:
+    public Config()
+com.urbanairship.push.embedded.Config$BoxOffice:
+    public Config$BoxOffice()
+com.urbanairship.push.embedded.Network:
+    public Network()
+    public static java.lang.String typeName()
+    public static java.lang.String getActiveIPAddress()
+com.urbanairship.restclient.AsyncHandler
+com.urbanairship.restclient.Post
+com.urbanairship.restclient.PostInputStream
+com.urbanairship.restclient.Request:
+    java.io.File destination
+    private static final int BUFFER_SIZE
+    private static final int DEFAULT_TIMEOUT_MS
+    private static final int DEFAULT_SOCKET_BUFFER_SIZE
+    private static final long MAX_PREFETCH_BODY_LENGTH
+    private static final java.lang.String USER_AGENT_FORMAT
+    public void setDestination(java.io.File)
+    public void setAuth(java.lang.String,java.lang.String)
+    public void executeAsync(com.urbanairship.restclient.AsyncHandler)
+com.urbanairship.restclient.Request$1
+com.urbanairship.restclient.Request$BackgroundRequest
+com.urbanairship.restclient.RequestQueue
+com.urbanairship.restclient.RequestQueue$1
+com.urbanairship.restclient.Response:
+    public java.lang.String reason()
+    public long length()
+    public java.lang.String contentType()
+    public java.io.InputStream rawBody()
+com.urbanairship.richpush.RichPushInbox:
+    public void addListener(com.urbanairship.richpush.RichPushInbox$Listener)
+    public void removeListener(com.urbanairship.richpush.RichPushInbox$Listener)
+    public int getCount()
+    public java.util.Set getMessageIds()
+    public int getReadCount()
+    public int getUnreadCount()
+    public java.util.List getMessages()
+    public java.util.List getUnreadMessages()
+    public java.util.List getReadMessages()
+    public com.urbanairship.richpush.RichPushMessage getMessage(java.lang.String)
+    public void markMessagesRead(java.util.Set)
+    public void markMessagesUnread(java.util.Set)
+com.urbanairship.richpush.RichPushInbox$1
+com.urbanairship.richpush.RichPushInbox$2
+com.urbanairship.richpush.RichPushManager:
+    static final long USER_UPDATE_INTERVAL_MS
+    public static final java.lang.String RICH_PUSH_KEY
+    public boolean isRefreshingMessages()
+    public void addListener(com.urbanairship.richpush.RichPushManager$Listener)
+    public void removeListener(com.urbanairship.richpush.RichPushManager$Listener)
+    public static java.lang.Class getJsInterface()
+    public static java.lang.String getJsIdentifier()
+    public static void setJavascriptInterface(java.lang.Class)
+    public static void setJavascriptInterface(java.lang.Class,java.lang.String)
+    public void refreshMessages()
+    public static boolean isRichPushMessage(android.os.Bundle)
+com.urbanairship.richpush.RichPushMessage:
+    public java.lang.String getMessageUrl()
+    public java.lang.String getMessageBodyUrl()
+    public java.lang.String getMessageReadUrl()
+    public java.lang.String getTitle()
+    public long getSentDateMS()
+    public java.util.Date getExpirationDate()
+    public java.lang.Long getExpirationDateMS()
+    public android.os.Bundle getExtras()
+    public void markRead()
+    public void markUnread()
+    public void delete()
+    public org.json.JSONObject getRawMessageJSON()
+    private com.urbanairship.richpush.RichPushInbox getInbox()
+com.urbanairship.richpush.RichPushMessageCache:
+    int getMessageCount()
+    int getUnreadMessageCount()
+    int getReadMessageCount()
+    java.util.List getMessages()
+    java.util.List getUnreadMessages()
+    java.util.List getReadMessages()
+    java.util.Set getMessageIds()
+com.urbanairship.richpush.RichPushMessageJavaScript:
+    private static java.text.SimpleDateFormat dateFormatter
+    java.lang.String messageId
+    android.view.View view
+    public RichPushMessageJavaScript(android.view.View,java.lang.String)
+    public int getViewHeight()
+    public int getViewWidth()
+    public java.lang.String getMessageId()
+    public java.lang.String getMessageTitle()
+    public java.lang.String getMessageSentDate()
+    public long getMessageSentDateMS()
+    public boolean isMessageRead()
+    public void markMessageRead()
+    public void markMessageUnread()
+    public java.lang.String getUserId()
+    public java.lang.String getDeviceModel()
+    public void navigateTo(java.lang.String)
+    public java.lang.String getDeviceOrientation()
+    private com.urbanairship.richpush.RichPushMessage getMessage()
+com.urbanairship.richpush.RichPushMessageJavaScriptInterface
+com.urbanairship.richpush.RichPushResolver:
+    private static final java.lang.String NEWEST_FIRST
+    private static final java.lang.String WHERE_CLAUSE_CHANGED
+    private static final java.lang.String WHERE_CLAUSE_READ
+    private static final java.lang.String WHERE_CLAUSE_MESSAGE_ID
+    private static final java.lang.String FALSE_VALUE
+    private static final java.lang.String TRUE_VALUE
+    android.database.Cursor getMessage(java.lang.String)
+    android.database.Cursor getReadMessages()
+    android.database.Cursor getUnreadMessages()
+    int markMessageRead(java.lang.String)
+    int markMessagesRead(java.util.Set)
+    int markMessagesUnread(java.util.Set)
+    int deleteMessage(java.lang.String)
+com.urbanairship.richpush.RichPushUpdateService:
+    public static final java.lang.String ACTION_RICH_PUSH_MESSAGES_UPDATE
+    public static final java.lang.String ACTION_RICH_PUSH_MESSAGE_RETRIEVE
+    public static final java.lang.String ACTION_RICH_PUSH_USER_UPDATE
+    public static final java.lang.String RICH_PUSH_MESSAGE_ID_KEY
+    public static final java.lang.String EXTRA_RICH_PUSH_RESULT_RECEIVER
+    public static final int STATUS_RICH_PUSH_UPDATE_SUCCESS
+    public static final int STATUS_RICH_PUSH_UPDATE_ERROR
+    private static final java.lang.String DELETE_MESSAGES_URL
+    private static final java.lang.String DELETE_MESSAGES_KEY
+    private static final java.lang.String MARK_READ_MESSAGES_URL
+    private static final java.lang.String MARK_READ_MESSAGES_KEY
+    private static final java.lang.String MESSAGE_URL
+    private static final java.lang.String MESSAGES_URL
+com.urbanairship.richpush.RichPushUser:
+    private static final java.lang.String NEW_USER_URL
+    private static final java.lang.String MODIFY_USER_URL
+    private static final java.lang.String PAYLOAD_USER_ID_KEY
+    private static final java.lang.String PAYLOAD_PASSWORD_KEY
+    private static final java.lang.String PAYLOAD_APIDS_KEY
+    public java.util.HashSet getApids()
+    public void setApids(java.util.HashSet)
+    public void addApid(java.lang.String)
+com.urbanairship.richpush.RichPushUser$UserPreferences:
+    private static final java.lang.String KEY_PREFIX
+    private static final java.lang.String USER_ID_KEY
+    private static final java.lang.String USER_PASSWORD_KEY
+    private static final java.lang.String USER_APIDS_KEY
+    private static final java.lang.String LAST_UPDATE_TIME
+com.urbanairship.util.DataManager:
+    private static final int MAX_ATTEMPTS
+    protected void bind(android.database.sqlite.SQLiteStatement,int,java.lang.String,java.lang.String)
+com.urbanairship.util.IntentUtils:
+    public IntentUtils()
+com.urbanairship.util.NotificationIDGenerator:
+    private static final java.lang.String SHARED_PREFERENCES_FILE
+    private static final java.lang.String NEXT_ID_KEY
+    private static final int MAX_RANGE
+    public NotificationIDGenerator()
+    public static void setStart(int)
+    public static void setRange(int)
+    public static int getStart()
+    public static int getRange()
+com.urbanairship.util.ServiceNotBoundException:
+    private static final long serialVersionUID
+    public ServiceNotBoundException()
+    public ServiceNotBoundException(java.lang.String)
+com.urbanairship.util.Toaster
+com.urbanairship.util.UAStringUtil:
+    public UAStringUtil()
+com.urbanairship.widget.RichPushMessageView
+com.urbanairship.widget.RichPushMessageView$1

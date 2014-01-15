@@ -1,0 +1,72 @@
+# view AndroidManifest.xml #generated:91
+-keep class com.digby.test.jpushtest.IntentReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.digby.test.jpushtest.LocationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.digby.test.jpushtest.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class com.digby.test.jpushtest.MyApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.digby.test.jpushtest.preference.CustomPreferencesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.digby.test.jpushtest.preference.PreferencesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class com.urbanairship.CoreReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class com.urbanairship.UrbanAirshipProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.urbanairship.analytics.EventService { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.urbanairship.location.LocationService { <init>(...); }
+
+# view res/xml/advanced_preferences.xml #generated:7
+-keep class com.urbanairship.preference.ApidPreference { <init>(...); }
+
+# view res/xml/location_preferences.xml #generated:18
+-keep class com.urbanairship.preference.LocationBackgroundEnablePreference { <init>(...); }
+
+# view res/xml/location_preferences.xml #generated:7
+-keep class com.urbanairship.preference.LocationEnablePreference { <init>(...); }
+
+# view res/xml/location_preferences.xml #generated:12
+-keep class com.urbanairship.preference.LocationForegroundEnablePreference { <init>(...); }
+
+# view res/xml/push_preferences.xml #generated:7
+-keep class com.urbanairship.preference.PushEnablePreference { <init>(...); }
+
+# view res/xml/push_preferences.xml #generated:24
+-keep class com.urbanairship.preference.QuietTimeEnablePreference { <init>(...); }
+
+# view res/xml/push_preferences.xml #generated:36
+-keep class com.urbanairship.preference.QuietTimeEndPreference { <init>(...); }
+
+# view res/xml/push_preferences.xml #generated:30
+-keep class com.urbanairship.preference.QuietTimeStartPreference { <init>(...); }
+
+# view res/xml/push_preferences.xml #generated:12
+-keep class com.urbanairship.preference.SoundEnablePreference { <init>(...); }
+
+# view res/xml/push_preferences.xml #generated:18
+-keep class com.urbanairship.preference.VibrateEnablePreference { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class com.urbanairship.push.GCMPushReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.urbanairship.push.PushService { <init>(...); }
+
+# view res/xml/advanced_preferences.xml #generated:15
+-keep class com.urbanairship.push.sample.preference.AddTagsPreference { <init>(...); }
+
+# view res/xml/advanced_preferences.xml #generated:11
+-keep class com.urbanairship.push.sample.preference.SetAliasPreference { <init>(...); }
+

@@ -1,0 +1,141 @@
+com.digby.test.jpushtest.IntentReceiver
+com.digby.test.jpushtest.IntentReceiver: IntentReceiver()
+com.digby.test.jpushtest.LocationActivity
+com.digby.test.jpushtest.LocationActivity: LocationActivity()
+com.digby.test.jpushtest.MainActivity
+com.digby.test.jpushtest.MainActivity: MainActivity()
+com.digby.test.jpushtest.MyApplication
+com.digby.test.jpushtest.MyApplication: MyApplication()
+com.digby.test.jpushtest.R$color: int black
+com.digby.test.jpushtest.R$color: int gray
+com.digby.test.jpushtest.R$color: int white
+com.digby.test.jpushtest.R$drawable: int icon
+com.digby.test.jpushtest.R$drawable: int icon_small
+com.digby.test.jpushtest.R$drawable: int stripes
+com.digby.test.jpushtest.R$drawable: int tiledstripes
+com.digby.test.jpushtest.R$id: int apidLabelView
+com.digby.test.jpushtest.R$id: int apidText
+com.digby.test.jpushtest.R$id: int background_location_enabled
+com.digby.test.jpushtest.R$id: int background_location_enabled_label
+com.digby.test.jpushtest.R$id: int delete_tag_button
+com.digby.test.jpushtest.R$id: int end_time
+com.digby.test.jpushtest.R$id: int foreground_location_enabled
+com.digby.test.jpushtest.R$id: int foreground_location_enabled_label
+com.digby.test.jpushtest.R$id: int gps_update_button
+com.digby.test.jpushtest.R$id: int icon
+com.digby.test.jpushtest.R$id: int layout_root
+com.digby.test.jpushtest.R$id: int linearLayout1
+com.digby.test.jpushtest.R$id: int location_button
+com.digby.test.jpushtest.R$id: int location_enabled
+com.digby.test.jpushtest.R$id: int location_enabled_label
+com.digby.test.jpushtest.R$id: int message
+com.digby.test.jpushtest.R$id: int network_update_button
+com.digby.test.jpushtest.R$id: int new_tag
+com.digby.test.jpushtest.R$id: int new_tag_button
+com.digby.test.jpushtest.R$id: int new_tag_text
+com.digby.test.jpushtest.R$id: int push_custom_preferences_button
+com.digby.test.jpushtest.R$id: int push_enabled
+com.digby.test.jpushtest.R$id: int push_preferences_button
+com.digby.test.jpushtest.R$id: int quiet_time_enabled
+com.digby.test.jpushtest.R$id: int sound_enabled
+com.digby.test.jpushtest.R$id: int start_time
+com.digby.test.jpushtest.R$id: int subject
+com.digby.test.jpushtest.R$id: int tag_text
+com.digby.test.jpushtest.R$id: int tags_list
+com.digby.test.jpushtest.R$id: int vibrate_enabled
+com.digby.test.jpushtest.R$layout: int location
+com.digby.test.jpushtest.R$layout: int main
+com.digby.test.jpushtest.R$layout: int notification
+com.digby.test.jpushtest.R$layout: int notification_large
+com.digby.test.jpushtest.R$layout: int notification_multi_line
+com.digby.test.jpushtest.R$layout: int notification_three_lines
+com.digby.test.jpushtest.R$layout: int push_preferences_dialog
+com.digby.test.jpushtest.R$layout: int tag_preference_item
+com.digby.test.jpushtest.R$layout: int tags_dialog_layout
+com.digby.test.jpushtest.R$raw: int cat
+com.digby.test.jpushtest.R$string: int add_tags_preference_title
+com.digby.test.jpushtest.R$string: int advanced_preference_category_title
+com.digby.test.jpushtest.R$string: int apid_preference_title
+com.digby.test.jpushtest.R$string: int app_description
+com.digby.test.jpushtest.R$string: int app_name
+com.digby.test.jpushtest.R$string: int background_location_preference_title
+com.digby.test.jpushtest.R$string: int duplicate_tag_warning
+com.digby.test.jpushtest.R$string: int foreground_location_preference_title
+com.digby.test.jpushtest.R$string: int location_preference_category_title
+com.digby.test.jpushtest.R$string: int location_preference_title
+com.digby.test.jpushtest.R$string: int push_preference_category_title
+com.digby.test.jpushtest.R$string: int push_preference_title
+com.digby.test.jpushtest.R$string: int quiet_time_enable_preference_title
+com.digby.test.jpushtest.R$string: int quiet_time_end_preference_title
+com.digby.test.jpushtest.R$string: int quiet_time_start_preference_title
+com.digby.test.jpushtest.R$string: int rich_push_message_dialog_title
+com.digby.test.jpushtest.R$string: int set_alias_preference_title
+com.digby.test.jpushtest.R$string: int short_app_name
+com.digby.test.jpushtest.R$string: int sound_preference_title
+com.digby.test.jpushtest.R$string: int vibrate_preference_title
+com.digby.test.jpushtest.R$style: int bold_header
+com.digby.test.jpushtest.R$style: int dark_bold_header
+com.digby.test.jpushtest.R$style: int dark_header_base
+com.digby.test.jpushtest.R$style: int header
+com.digby.test.jpushtest.R$style: int header_base
+com.digby.test.jpushtest.R$xml: int advanced_preferences
+com.digby.test.jpushtest.R$xml: int location_preferences
+com.digby.test.jpushtest.R$xml: int push_preferences
+com.digby.test.jpushtest.preference.CustomPreferencesActivity
+com.digby.test.jpushtest.preference.CustomPreferencesActivity: CustomPreferencesActivity()
+com.digby.test.jpushtest.preference.PreferencesActivity
+com.digby.test.jpushtest.preference.PreferencesActivity: PreferencesActivity()
+com.urbanairship.AirshipConfigOptions$TransportType: com.urbanairship.AirshipConfigOptions$TransportType[] values()
+com.urbanairship.AirshipConfigOptions$TransportType: com.urbanairship.AirshipConfigOptions$TransportType valueOf(java.lang.String)
+com.urbanairship.CoreReceiver
+com.urbanairship.CoreReceiver: CoreReceiver()
+com.urbanairship.UrbanAirshipProvider
+com.urbanairship.UrbanAirshipProvider: UrbanAirshipProvider()
+com.urbanairship.analytics.ActivityMonitor$Source: com.urbanairship.analytics.ActivityMonitor$Source[] values()
+com.urbanairship.analytics.ActivityMonitor$Source: com.urbanairship.analytics.ActivityMonitor$Source valueOf(java.lang.String)
+com.urbanairship.analytics.ActivityState$State: com.urbanairship.analytics.ActivityState$State[] values()
+com.urbanairship.analytics.ActivityState$State: com.urbanairship.analytics.ActivityState$State valueOf(java.lang.String)
+com.urbanairship.analytics.EventService
+com.urbanairship.analytics.EventService: EventService()
+com.urbanairship.analytics.EventService: EventService(java.lang.String)
+com.urbanairship.analytics.InstrumentedActivity: InstrumentedActivity()
+com.urbanairship.analytics.LocationEvent$AllowableProvider: com.urbanairship.analytics.LocationEvent$AllowableProvider[] values()
+com.urbanairship.analytics.LocationEvent$AllowableProvider: com.urbanairship.analytics.LocationEvent$AllowableProvider valueOf(java.lang.String)
+com.urbanairship.analytics.LocationEvent$UpdateType: com.urbanairship.analytics.LocationEvent$UpdateType[] values()
+com.urbanairship.analytics.LocationEvent$UpdateType: com.urbanairship.analytics.LocationEvent$UpdateType valueOf(java.lang.String)
+com.urbanairship.location.LocationService
+com.urbanairship.location.LocationService: LocationService()
+com.urbanairship.preference.ApidPreference
+com.urbanairship.preference.ApidPreference: ApidPreference(android.content.Context,android.util.AttributeSet)
+com.urbanairship.preference.LocationBackgroundEnablePreference
+com.urbanairship.preference.LocationBackgroundEnablePreference: LocationBackgroundEnablePreference(android.content.Context,android.util.AttributeSet)
+com.urbanairship.preference.LocationEnablePreference
+com.urbanairship.preference.LocationEnablePreference: LocationEnablePreference(android.content.Context,android.util.AttributeSet)
+com.urbanairship.preference.LocationForegroundEnablePreference
+com.urbanairship.preference.LocationForegroundEnablePreference: LocationForegroundEnablePreference(android.content.Context,android.util.AttributeSet)
+com.urbanairship.preference.PushEnablePreference
+com.urbanairship.preference.PushEnablePreference: PushEnablePreference(android.content.Context,android.util.AttributeSet)
+com.urbanairship.preference.QuietTimeEnablePreference
+com.urbanairship.preference.QuietTimeEnablePreference: QuietTimeEnablePreference(android.content.Context,android.util.AttributeSet)
+com.urbanairship.preference.QuietTimeEndPreference
+com.urbanairship.preference.QuietTimeEndPreference: QuietTimeEndPreference(android.content.Context,android.util.AttributeSet)
+com.urbanairship.preference.QuietTimePickerPreference: QuietTimePickerPreference(android.content.Context,android.util.AttributeSet,int)
+com.urbanairship.preference.QuietTimePickerPreference: QuietTimePickerPreference(android.content.Context,android.util.AttributeSet)
+com.urbanairship.preference.QuietTimeStartPreference
+com.urbanairship.preference.QuietTimeStartPreference: QuietTimeStartPreference(android.content.Context,android.util.AttributeSet)
+com.urbanairship.preference.SoundEnablePreference
+com.urbanairship.preference.SoundEnablePreference: SoundEnablePreference(android.content.Context,android.util.AttributeSet)
+com.urbanairship.preference.UACheckBoxPreference: UACheckBoxPreference(android.content.Context,android.util.AttributeSet)
+com.urbanairship.preference.UAPreference$PreferenceType: com.urbanairship.preference.UAPreference$PreferenceType[] values()
+com.urbanairship.preference.UAPreference$PreferenceType: com.urbanairship.preference.UAPreference$PreferenceType valueOf(java.lang.String)
+com.urbanairship.preference.VibrateEnablePreference
+com.urbanairship.preference.VibrateEnablePreference: VibrateEnablePreference(android.content.Context,android.util.AttributeSet)
+com.urbanairship.push.GCMPushReceiver
+com.urbanairship.push.GCMPushReceiver: GCMPushReceiver()
+com.urbanairship.push.PushService
+com.urbanairship.push.PushService: PushService()
+com.urbanairship.push.PushService: PushService(java.lang.String)
+com.urbanairship.richpush.RichPushManager$1
+com.urbanairship.richpush.RichPushManager$2
+com.urbanairship.richpush.RichPushManager$3
+com.urbanairship.richpush.RichPushManager$UpdateResultReceiver
