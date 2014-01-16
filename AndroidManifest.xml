@@ -158,8 +158,14 @@
         <receiver android:name="com.digby.test.jpushtest.IntentReceiver" />
 
         <!-- Configuration values required to connect to brand and server environment -->
-        <meta-data android:name="digby_appId" android:value="307d33c5-e27b-47f2-bf5d-ea18d11033ac" />
+        <!-- catalina 
+        <meta-data android:name="digby_appId" android:value="307d33c5-e27b-47f2-bf5d-ea18d11033ac" /> 
         <meta-data android:name="digby_brandCode" android:value="catalina" />
+        -->
+        <!-- lptester -->
+        <meta-data android:name="digby_appId" android:value="d86d1790-6daa-46dc-b7e4-adc5c68aa328" />
+        <meta-data android:name="digby_brandCode" android:value="lptester" />
+        
         <meta-data android:name="digby_searchRadius_meters" android:value="50000" />
         <meta-data android:name="digby_server" android:value="sandbox" />	<!-- Change to "api" for production app -->
         <!-- END Configuration values required to connect to brand and server environment -->
