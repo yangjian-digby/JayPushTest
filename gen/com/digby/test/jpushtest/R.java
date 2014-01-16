@@ -18,8 +18,9 @@ public final class R {
     public static final class drawable {
         public static final int icon=0x7f020000;
         public static final int icon_small=0x7f020001;
-        public static final int stripes=0x7f020002;
-        public static final int tiledstripes=0x7f020003;
+        public static final int splash=0x7f020002;
+        public static final int stripes=0x7f020003;
+        public static final int tiledstripes=0x7f020004;
     }
     public static final class id {
         public static final int apidLabelView=0x7f090003;
@@ -61,8 +62,9 @@ public final class R {
         public static final int notification_multi_line=0x7f030004;
         public static final int notification_three_lines=0x7f030005;
         public static final int push_preferences_dialog=0x7f030006;
-        public static final int tag_preference_item=0x7f030007;
-        public static final int tags_dialog_layout=0x7f030008;
+        public static final int splash=0x7f030007;
+        public static final int tag_preference_item=0x7f030008;
+        public static final int tags_dialog_layout=0x7f030009;
     }
     public static final class raw {
         public static final int cat=0x7f050000;
