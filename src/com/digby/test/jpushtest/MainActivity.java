@@ -89,6 +89,16 @@ public class MainActivity extends InstrumentedActivity {
 
         });
 
+        Button tapButton = (Button)findViewById(R.id.tap_button);
+        tapButton.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+            	com.digby.mm.android.library.utils.Logger.Debug("Taped");
+            }
+
+        });
+
         boundServiceFilter = new IntentFilter();
         boundServiceFilter.addAction(UALocationManager.getLocationIntentAction(UALocationManager.ACTION_SUFFIX_LOCATION_SERVICE_BOUND));
         boundServiceFilter.addAction(UALocationManager.getLocationIntentAction(UALocationManager.ACTION_SUFFIX_LOCATION_SERVICE_UNBOUND));
